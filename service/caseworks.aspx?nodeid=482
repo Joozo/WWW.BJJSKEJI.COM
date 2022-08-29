@@ -1,0 +1,993 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+		<!-- <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"> -->
+		<meta name="renderer" content="webkit"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="keywords" content=""/>
+		<meta name="description" content=""/>
+		<title>客户案例 - 因脉科技官网</title>
+<meta name="Description" content="因脉科技官网" />
+<meta name="Keywords" content="因脉科技官网" />
+		<link rel="stylesheet" href="../css/base.css"/>
+		<link rel="stylesheet" href="../css/main.css"/>
+		<!-- <script>
+		    var _hmt = _hmt || [];
+		    (function () {
+		        var hm = document.createElement("script");
+		        hm.src = "https://hm.baidu.com/hm.js?57148130ddd42afab9594c1f8495f2d7";
+		        var s = document.getElementsByTagName("script")[0];
+		        s.parentNode.insertBefore(hm, s);
+		    })();
+		</script> -->
+		<script src="../js/seaJsModule.js" id="seajsnode"></script>
+	</head>
+	<body>	
+		<div class="caseTop prz">
+			<a href="javascript:;" style="cursor:default;" class="imgBox prz">
+				<img data-src="../images/ban1.jpg" class="best-fill">
+			</a>
+
+			<a href="javascript:;" class="logo pra" id="logo">
+				<div class="linewaper pra">
+					<span class="line line-1" id="line-1"></span>
+					<span class="line line-2" id="line-2"></span>
+					<span class="line line-3" id="line-3"></span>
+				</div>
+			</a>
+			<div class="iconpos pra">
+				<a href="javascript:;" class="iconses message bg100"></a>
+				<a href="javascript:;" class="iconses phones bg100"></a>
+			</div>
+			<div class="important bg100"></div>
+		</div>
+		<div class="menuContent pra" id="menuContent">
+			<div class="smallSec pra">
+				<a href="index.html" class="mlogo bg100"></a>
+				<span class="mlogoLine"></span>
+				<div class="butX bg100" id="butX">
+					<span class="but butL"></span>
+					<span class="but butR"></span>
+				</div>
+			</div>
+			<div class="mlist pra">
+				<a href="../index.html" class="items cleargap">
+					<span class="chin ibox">首页</span>
+					<span class="engs ibox">HOME</span>
+				</a>
+				<a href="caseworks.aspx?nodeid=482" class="items cleargap active">
+					<span class="chin ibox">案例&作品</span>
+					<span class="engs ibox">CASE&WORKS</span>
+				</a>
+				<a href="../service.html" class="items cleargap">
+					<span class="chin ibox">服务</span>
+					<span class="engs ibox">SERVICE</span>
+				</a>
+				<a href="../about.html" class="items cleargap">
+					<span class="chin ibox">关于因脉</span>
+					<span class="engs ibox">ABOUT INMO</span>
+				</a>
+				<a href="../talented.html" class="items cleargap">
+					<span class="chin ibox">人才</span>
+					<span class="engs ibox">TALENTED PERSON</span>
+				</a>
+				<a href="../contact.html" class="items cleargap">
+					<span class="chin ibox">联系</span>
+					<span class="engs ibox">CONTACT</span>
+				</a>
+			</div>
+		</div>
+		<ul class="caseList">
+
+               
+			        <li>
+				        <a href="http://www.imotation.com/hisense.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171101535497186721.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/hisense.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/2017110153739063956.png">
+						        </div>
+						        <div class="instro">
+							        企业官网以站群项目，因脉服务于海信旗下的海信品牌站、海信产品服务站、容声品牌站、科隆品牌站、智能商用中英文站，秉承国际化的风格...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/pku.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171101546537183740.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/pku.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171101546592651659.png">
+						        </div>
+						        <div class="instro">
+							        因脉帮助百年北大社会学系、经济学院研究中心等打造高品质的发布型网站，遵循简约风格，充分利用页面空间，使网站更加扁平化、人性化，且与北大校内多系统对接...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/icntv.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/2017110181810465172.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/icntv.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171101818211409839.png">
+						        </div>
+						        <div class="instro">
+							        因脉网站建设服务依托于中国互联网优秀的建设团队，凭借先进的E化直销，通过整合策划、设计、前端及程序资源，运用各种商业产品服务理念，构建全新及创新的网站建设团队...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/yczb.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/2017110182536251993.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/yczb.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171101825132812147.png">
+						        </div>
+						        <div class="instro">
+							        中国印钞造币总公司技术中心官网为技术中心外部宣传平台的重要组成部分,因脉助力印钞实现，建设可扩展的信息...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/bull.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/2017110182827609981.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/bull.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171101828387032741.png">
+						        </div>
+						        <div class="instro">
+							        因脉旨哉为公牛打造线上集团形象，加深用户对公牛集团的品牌印象，进而展现产品特点。英文官网与中文站采用不同的设计风格，遵从国外网站简洁、大气的设计理念，Metro风格的大色块拼接、简洁的扁平化风格...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/cpc.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171101830258591074.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/cpc.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/2017110183184848774.png">
+						        </div>
+						        <div class="instro">
+							        因脉结合中共北京市委党校坚持以党为本的教育理念，结合新的互联网元素，以此为基本，建设中共北京市委党校官网及内部信息网...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/eni.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171101833405935738.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/eni.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/2017110183487968491.png">
+						        </div>
+						        <div class="instro">
+							        作为跨国集团中国办事处内网，在集团网站群统一风格下融入了长城、云纹、十二生肖剪纸等中国特色元素，中西文化在此交融又能绽放独特风采...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/subaru.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/201711018367463165.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/subaru.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/2017110183788436384.png">
+						        </div>
+						        <div class="instro">
+							        远行家app给热爱自驾游的人一个可以交流和聚集的平台，让车主在体验超值旅行的途中增加用户之间的沟通，打造良好氛围，让潜在用户感受到斯巴鲁为车主提供的超值福利，并提供便捷的4S店查询等服务...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/syrutra.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/201711018392509197.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/syrutra.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/2017110183950784730.png">
+						        </div>
+						        <div class="instro">
+							        因脉先后服务与圣元集团官网建设、我的天使官网建设、B2B经销商系统建设运维并定期制定营销活动，长期合作以来因脉帮助圣元树立全新的品牌形象，并通过线上渠道实现销售盈利...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/shengyuan.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/2017120117193128597.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/shengyuan.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171101843137961526.png">
+						        </div>
+						        <div class="instro">
+							        面对市场对圣元集团产品日益增长的需求以及传统电话销售/采购的陈旧模式之间的矛盾，因脉为圣元提供了线上B2B订货平台的解决方案...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/eximbank.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/2017110184639461928.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/eximbank.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171101847123289082.png">
+						        </div>
+						        <div class="instro">
+							        以人为本的创新理念，成功打造包括中国进出口银行中、英、俄、法四种语言网站及APP的互联网全平台的线上品牌形象。创新来源于对中国进出口银行业务与市场的深刻洞见与反思，视觉上贯彻扁平化与交互式设计理念...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/olympus.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171101850338121950.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/olympus.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171101851104373546.png">
+						        </div>
+						        <div class="instro">
+							        09年与奥林巴斯结缘，经过7年共同成长，因脉成为奥林巴斯不可或缺的合作伙伴，因脉会不定期与奥林巴斯就互联网最新的实现技术、UI设计与交互方式进行探讨和分享...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/nec.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171101857232819262.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/nec.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171101857319847489.png">
+						        </div>
+						        <div class="instro">
+							        因脉帮助NEC (中国)有限公司打造了NEC软件产品售后服务门户网站,目的为购买NEC软件产品的企业及个人提供技术支持平台,依托NEC的百年创新历史、秉承长期积累的先进技术和行业经验...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/isoftstone.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/2017110190501873836.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/isoftstone.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/2017110191193903018.png">
+						        </div>
+						        <div class="instro">
+							        软通动力信息科技技术有限公司作为中国软件服务外包十大领军企业，拥有行业内顶尖的技术和丰富的经验。因脉帮助软通动力打造全新互联网线上平台，深入探寻业务的核心价值与社会意义...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/evergrade.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/2017110194554211652.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/evergrade.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/201711019582659503.png">
+						        </div>
+						        <div class="instro">
+							        在为配合“多元+规模+品牌”的大战略思想
+因脉帮助恒大集团为旗下子品牌恒大冰泉、咔哇熊乳业分别单独建立网站...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/airbus.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171101910258126121.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/airbus.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/201711019104240638.png">
+						        </div>
+						        <div class="instro">
+							        空客在亚太地区唯一的航空服务培训及支援中心，提供专业培训与优质空客备件支援服务。为满足空客公司线下业务整合至线上的核心诉求...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/novonordisk.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171101912539064341.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/novonordisk.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/201711019138461392.png">
+						        </div>
+						        <div class="instro">
+							        因脉帮助诺和诺德打造响应式产品站点，满足企业与其客户的双向需求，解决之前客户不了解企业产品，产品粘性不高与业务转化效率等问题...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/mps.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171101915256251293.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/mps.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171101915117813763.png">
+						        </div>
+						        <div class="instro">
+							        为配合公安部“同心思远、守正敏行”的战略思想，因脉利用其自主研发的webplug CMS系统自身的高安全性、高稳定性及超强的二次开发能力，帮助公安部...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/bishengyuan.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171201021278593108.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/bishengyuan.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171201021425009141.png">
+						        </div>
+						        <div class="instro">
+							        因脉为碧生源控股集团提供集团官网、品牌官网的策划、UE设计、创意、实现
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/caibai.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171201024172031454.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/caibai.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/2017120102481569486.png">
+						        </div>
+						        <div class="instro">
+							        菜百作为北京老字号黄金珠宝品牌，拥有深厚的品牌基础，成为广受认可的老字号，践行“做每个人的黄金珠宝顾问”
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/DTT.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171201030482652965.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/DTT.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171201027463283454.png">
+						        </div>
+						        <div class="instro">
+							        央企网站评分体系是国家对各大央企的互联网宣传方面十分重要的评价手段。大唐电信作为总资产规模近500亿元人民币的大型央企...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/dongfangguangchang.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171201029338906016.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/dongfangguangchang.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171201029419215765.png">
+						        </div>
+						        <div class="instro">
+							        因脉结合东方新天地实际风貌，以平时求真的方式，打造专属东方新天地独特时尚设计。将鲜明的设计风格和商场品牌的结合，完美再现了大都市的繁华...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/huiyuan.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171201031392343145.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/huiyuan.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171201031565787301.png">
+						        </div>
+						        <div class="instro">
+							        互联网兴起是汇源乘风破浪的最佳时机，2012年，我们了解到汇源食品饮料公司的官网版式以及功能过于陈旧...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/jinyujituan.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/201712010342933688.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/jinyujituan.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171201034129218531.png">
+						        </div>
+						        <div class="instro">
+							        北京金隅集团坚持以“与时俱进，开拓创新”为企业理念，由过去传统单一的建材产品生产企业发展成为拥有金隅新型建材制造—金隅地产...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/jingchengjidian.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171201036573435784.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/jingchengjidian.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/2017120103710783683.png">
+						        </div>
+						        <div class="instro">
+							        北京京城机电以不懈追求自身价值，实事求是，忠诚对待客户取得商业高口碑；对于产品使用范围广泛，种类繁多的企业...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/meikemeijia.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171201038144064751.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/meikemeijia.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171201038277968831.png">
+						        </div>
+						        <div class="instro">
+							        因脉为美克集团提供官网建设服务，深入到美克集团了解产品细节、了解美克的品牌文化，进行定制化的战略策划...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/posco.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171201040148591068.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/posco.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171201040261562528.png">
+						        </div>
+						        <div class="instro">
+							        浦项中心项目本身硬件精良，配置完善，需通过品牌推广获得关注。因此以品牌建设为核心搭建网站，使楼盘项目品牌化，招商营销与品牌推广一体化...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/shaolinshi.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171201041536713349.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/shaolinshi.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/2017120104257507620.png">
+						        </div>
+						        <div class="instro">
+							        少林寺是习武之人的宗祖之院，是佛门香客的精神圣地。随着汉文化风靡全球，少林寺需要通过全球化的方式进行对外传播与交流，网站建设迫在眉睫...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/taiyangyu.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171201043183902263.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/taiyangyu.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171201043299689871.png">
+						        </div>
+						        <div class="instro">
+							        太阳雨集团以用户需求为中心，以太阳能光热为基础，积极推行企业“大光热”升级转型战略，实现太阳雨集团品牌的相关延伸...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/yanjing.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171201045241716360.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/yanjing.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/2017120104539578188.png">
+						        </div>
+						        <div class="instro">
+							        燕京品牌以啤酒驰名，其企业文化、在公共事业中的重要角色亦令人称道。多渠道塑造全面丰满的品牌形象成为燕京集团网站建设之初衷...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/zhongguohangyou.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171201047102818797.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/zhongguohangyou.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/2017120104721312160.png">
+						        </div>
+						        <div class="instro">
+							        在2011年，中国航空油料集团官网一条信息引起了因脉科技的关注。由于中国航空油料集团在央企网站评分中表现欠佳，在技术与品牌展现方面得到的分数并不高...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/zhongguohedian.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/2017120104838718641.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/zhongguohedian.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171201048509685286.png">
+						        </div>
+						        <div class="instro">
+							        企业官网是展示企业形象的窗口，需要全面覆盖信息之外，细节设计亦是塑造形象、与用户沟通的方式。因脉在搭建中核电力企业官网时，不仅注重其信息的规划曝光...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/zhongguominhang.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/2017120105076409567.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/zhongguominhang.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171201050223592116.png">
+						        </div>
+						        <div class="instro">
+							        民航机场建设集团作为立足国内打入国际的混合型建设企业，实力是彰显企业价值的最好说明。所以网站首页将企业覆盖的业务领域直接展示给用户，直呈企业最核心的价值...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/EPSON.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171201058353757937.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/EPSON.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171201058426878421.png">
+						        </div>
+						        <div class="instro">
+							        因脉为爱普生中国、爱普生投影机服务两个公众账号提供运营服务，包括信息推送和自助服务...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/shuangdelizhifu.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/2017120110225463563.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/shuangdelizhifu.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/2017120110444849431.png">
+						        </div>
+						        <div class="instro">
+							        因脉科技为双得利打造的客户掌上平台，是专为使用双得利生产的物联网水电气表终端用户开发的一款App软件，用户足不出户，便可实现缴费充值...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/tongshijian.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/201712011254066083.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/tongshijian.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/2017120112178431087.png">
+						        </div>
+						        <div class="instro">
+							        同事间是一款由因脉科技自主开发的App，同时也有Web端，移动端数据完全与PC打通，数据同步更新...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/zhongguojinbi.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/201712011466408466.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/zhongguojinbi.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/2017120114166565443.png">
+						        </div>
+						        <div class="instro">
+							        2013年8月至今，因脉为中国金币总公司微信公众平台提供统一服务，基于公众平台的服务包括后台功能开发、每日微刊推送、自动回复逻辑搭建...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/kebao.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/2017120119275467469.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/kebao.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/2017120119445007265.png">
+						        </div>
+						        <div class="instro">
+							        当今时代线下的即时家装服务已经发展的相当成熟，伴随着互联网的迅速发展，家装行业走到线上，为客户提供更加便捷的服务已经成为必然趋势...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/hongxuetang.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/2017123141452812541.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/hongxuetang.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/2017120112256258192.png">
+						        </div>
+						        <div class="instro">
+							        在证券、基金行业井喷式发展的大环境下，因脉为北京千红百和文化传播有限公司搭建了服务平台，平台整合了证券、基金行业的网络授课...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/santaoche.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171201124121407556.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/santaoche.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171201124206093236.png">
+						        </div>
+						        <div class="instro">
+							        鉴于二手车市场日渐火爆，因脉为包头三套车交通科技有限公司建设了一整套汽车后市场解决方案，包含了二手车交易平台与汽车后市场...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/yinhangjinrong.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171201125585462780.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/yinhangjinrong.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/2017120112699689297.png">
+						        </div>
+						        <div class="instro">
+							        因脉结合引行金融线下理财产品的销售方式与互联网+的概念，为引行金融搭建了P2P平台...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/jinxiang.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171201128238592656.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/jinxiang.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171201128334371293.png">
+						        </div>
+						        <div class="instro">
+							        北京金象大药房医药连锁有限责任公司是中国最早拿到互联网药品交易服务许可的企业，因脉帮助金象成功打造了了中国第一个由国家批准的...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/panjiayuan.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171201130117185375.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/panjiayuan.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/2017120113021218479.png">
+						        </div>
+						        <div class="instro">
+							        潘家园网（www.panjiayuan.com）是由因脉科技为北京潘家园古玩艺术品文化传媒有限公司打造专业的古玩、艺术品、收藏品爱好者交流...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/yibaiyiliao.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/20171231440149215963.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/yibaiyiliao.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/20171201132185781029.png">
+						        </div>
+						        <div class="instro">
+							        因脉结合了医疗器械传统的询价方式与互联网+的新理念，为易佰医疗搭建了互联网+医疗器械行业的专业B2B功能型平台...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			        <li>
+				        <a href="http://www.imotation.com/youxuanshangpin.html" class="imgBox prz">
+					        <img data-src="../upload/images/20171/2017123143512658928.jpg" class="best-fill">
+				        </a>
+				        <a href="http://www.imotation.com/youxuanshangpin.html" class="masks pra bg100 cleargap">
+					        <div class="ibox vertical">
+						        <div class="compLogo">
+							        <img class="img-responsive" src="../upload/images/20171/201712011334231910.png">
+						        </div>
+						        <div class="instro">
+							        因脉为北京优选尚品服装有限公司提供线上电商平台，实现了用户可在平台服装定制预约、周边产品购买、意见反馈等功能...
+						        </div>
+						        <!-- <a href="../#" class="more pra bg100"></a> -->
+					        </div>
+					        <strong class="ibox"></strong>
+				        </a>
+			        </li>
+                
+			<li class="lastMore-1"></li>
+		</ul>
+		<!-- <div class="jPager cleargap">
+			<a class="ibox active" href="#">1</a>
+			<a class="ibox" href="#">2</a>
+			<a class="ibox" href="#">3</a>
+			<a class="ibox" href="#">4</a>
+			<a class="ibox" href="#">5</a>
+		</div> -->
+		<div class="footer">
+			<div class="inner">
+				<div class="infos fl">
+					<div class="addrTels">
+						<div class="addr fl">
+							北京市朝阳区朝外大街乙6号朝外SOHO D座1031
+						</div>
+						<div class="tels fr" style="line-height: 28px;">
+							<!-- 010-59009515<br/> -->
+							010-59009565
+						</div>
+					</div>
+					<div class="flinks">
+						<a href="OurCases.html">
+							<span>案例</span>
+							<i>CASE&WORKS</i>
+						</a>
+						<a href="OurServices.html">
+							<span>业务领域</span>
+							<i>BUSINESS</i>
+						</a>
+						<a href="AboutUs.html">
+							<span>关于因脉</span>
+							<i>ABOUT INMO</i>
+						</a>
+						<a href="../talented.html">
+							<span>人才招聘</span>
+							<i>TALENTED PERSON</i>
+						</a>
+					</div>
+				</div>
+				<div class="erCode fr">
+					<a href="javascript:;" class="imgBox">
+						<img src="../images/ercode.jpg">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="cprt cprt1">
+			Innovation In Motion     copyright © 2001-2016 京ICP备05028015号-5
+		</div>
+		<a href="javascript:;" id="backToTop"></a>
+	</body>
+</html>
+<script>
+    seajs.use(['init'], function () {
+
+        var divBtn = $('.divBtn span');
+        var iH = $('.divDetail .ih');
+
+        $(window).resize(function () {
+
+            divBtn.show().css({
+
+                top: (divBtn.parent().outerHeight() - divBtn.height()) / 2
+
+            })
+
+            iH.show().each(function () {
+
+                $(this).css({
+                    top: ($(this).parent().outerHeight() - $(this).height()) / 2
+                })
+
+            })
+
+        }).resize()
+
+
+        var targetLi = $('.caseList li');
+
+        targetLi.on('mouseenter', function () {
+
+            $(this).find('.masks').stop().animate({ opacity: 1 })
+
+        });
+
+        targetLi.on('mouseleave', function () {
+
+            $(this).find('.masks').stop().animate({ opacity: 0 });
+
+        });
+
+
+    });
+</script>
+
+

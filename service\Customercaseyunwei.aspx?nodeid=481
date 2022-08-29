@@ -1,0 +1,335 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+		<!-- <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"> -->
+		<meta name="renderer" content="webkit"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="keywords" content=""/>
+		<meta name="description" content=""/>
+		<title>运维服务领域 - 因脉科技官网</title>
+<meta name="Description" content="因脉科技官网" />
+<meta name="Keywords" content="因脉科技官网" />
+		<link rel="stylesheet" href="../css/base.css"/>
+		<link rel="stylesheet" href="../css/main.css"/>
+		<script>
+		    var _hmt = _hmt || [];
+		    (function () {
+		        var hm = document.createElement("script");
+		        hm.src = "https://hm.baidu.com/hm.js?57148130ddd42afab9594c1f8495f2d7";
+		        var s = document.getElementsByTagName("script")[0];
+		        s.parentNode.insertBefore(hm, s);
+		    })();
+		</script>
+		<script src="../js/seaJsModule.js" id="seajsnode"></script>
+	</head>
+	<body>	
+		<div class="caseTop prz">
+			<div class="imgBox prz" style="background:url(../images/aaabbb.jpg) no-repeat center top;">
+				<div class="w1100">
+					<span class="title">运维服务领域<i></i></span>
+					<div class="instro">
+						内容维护  UI设计优化  前端维护  后端技术迭代  软硬件维护
+					</div>
+					<a href="caseworks.aspx?nodeid=482" class="button button-1">客户案例</a>
+				</div>
+			</div>
+			<a href="javascript:;" class="logo pra" id="logo">
+				<div class="linewaper pra">
+					<span class="line line-1" id="line-1"></span>
+					<span class="line line-2" id="line-2"></span>
+					<span class="line line-3" id="line-3"></span>
+				</div>
+			</a>
+			<div class="iconpos pra">
+				<a href="javascript:;" class="iconses message bg100"></a>
+				<a href="javascript:;" class="iconses phones bg100"></a>
+			</div>
+			<div class="important bg100"></div>
+		</div>
+		<div class="menuContent pra" id="menuContent">
+			<div class="smallSec pra">
+				<a href="index.html" class="mlogo bg100"></a>
+				<span class="mlogoLine"></span>
+				<div class="butX bg100" id="butX">
+					<span class="but butL"></span>
+					<span class="but butR"></span>
+				</div>
+			</div>
+			<div class="mlist pra">
+				<a href="../index.html" class="items cleargap">
+					<span class="chin ibox">首页</span>
+					<span class="engs ibox">HOME</span>
+				</a>
+				<a href="../case&works.html" class="items cleargap active">
+					<span class="chin ibox">案例&作品</span>
+					<span class="engs ibox">CASE&WORKS</span>
+				</a>
+				<a href="../service.html" class="items cleargap">
+					<span class="chin ibox">服务</span>
+					<span class="engs ibox">SERVICE</span>
+				</a>
+				<a href="../about.html" class="items cleargap">
+					<span class="chin ibox">关于因脉</span>
+					<span class="engs ibox">ABOUT INMO</span>
+				</a>
+				<a href="../talented.html" class="items cleargap">
+					<span class="chin ibox">人才</span>
+					<span class="engs ibox">TALENTED PERSON</span>
+				</a>
+				<a href="../contact.html" class="items cleargap">
+					<span class="chin ibox">联系</span>
+					<span class="engs ibox">CONTACT</span>
+				</a>
+			</div>
+		</div>
+		<div class="yunwei">
+			<div class="w1200">
+				<div class="title-3"></div>
+				<div class="cleargap">
+					<div class="ibox ibox-1">
+						<div class="imgBox"></div>
+						<div class="content">
+							<div class="tit">日常运维<i></i></div>
+							<div class="cnts">
+								对网站固定栏目进行更新<br/>
+								页面设计与更新 <br/>多媒体制作与更新 <br/>
+								技术维护
+
+							</div>
+						</div>
+					</div>
+					<div class="ibox ibox-5"></div>
+					<div class="ibox ibox-2">
+						<div class="imgBox"></div>
+						<div class="content">
+							<div class="tit">定期检测&系统诊断<i></i></div>
+							<div class="cnts">
+								安全性、数据库、服务器巡检<br/>
+								网站、流量、电商、行业数据分析
+								网站可用性检查
+							</div>
+						</div>
+					</div>
+					<div class="ibox ibox-6"></div>
+					<div class="ibox ibox-3">
+						<div class="imgBox"></div>
+						<div class="content">
+							<div class="tit">网站营销<i></i></div>
+							<div class="cnts">
+								网站会员关系  电子杂志更新</br>
+								软文撰写  活动专题  SEO优化</br>
+								会员EDM  互动舆情监控
+							</div>
+						</div>
+					</div>
+					<div class="ibox ibox-7"></div>
+					<div class="ibox ibox-4">
+						<div class="imgBox"></div>
+						<div class="content">
+							<div class="tit">网站更新与扩展<i></i></div>
+							<div class="cnts">
+								新功能开发  专题建设<br/>
+								现有功能升级<br/>
+								运营改进建议
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="javascript:;" class="down-4" id="down"></a>
+			</div>
+		</div>
+		<ul class="caseList" id="caseList">
+            <li><a href="/tongshijian.html" class="imgBox prz"><img data-src="../upload/images/20171/2017120111311953573.jpg" class="best-fill"></img></a><a href="/tongshijian.html" class="masks pra bg100 cleargap"><div class="ibox vertical"><div class="compLogo"><img class="img-responsive" src="../upload/images/20171/20171201113221096927.png"></img></div><div class="instro">同事间是一款由因脉科技自主开发的App，同时也有Web端，移动端数据完全与PC打通，数据同步更新...</div><!-- <a href="../#" class="more pra bg100"></a> --></div><strong class="ibox"></strong></a></li><li><a href="/DTT.html" class="imgBox prz"><img data-src="../upload/images/20171/20171201111313599210.jpg" class="best-fill"></img></a><a href="/DTT.html" class="masks pra bg100 cleargap"><div class="ibox vertical"><div class="compLogo"><img class="img-responsive" src="../upload/images/20171/20171201111414374442.png"></img></div><div class="instro">央企网站评分体系是国家对各大央企的互联网宣传方面十分重要的评价手段。大唐电信作为总资产规模近500亿元人民币的大型央企...</div><!-- <a href="../#" class="more pra bg100"></a> --></div><strong class="ibox"></strong></a></li><li><a href="/eximbank.html" class="imgBox prz"><img data-src="../upload/images/20171/2017110184918593640.jpg" class="best-fill"></img></a><a href="/eximbank.html" class="masks pra bg100 cleargap"><div class="ibox vertical"><div class="compLogo"><img class="img-responsive" src="../upload/images/20171/20171101849122969286.png"></img></div><div class="instro">以人为本的创新理念，成功打造包括中国进出口银行中、英、俄、法四种语言网站及APP的互联网全平台的线上品牌形象。创新来源于对中国进出口银行业务与市场的深刻洞见与反思，视觉上贯彻扁平化与交互式设计理念...</div><!-- <a href="../#" class="more pra bg100"></a> --></div><strong class="ibox"></strong></a></li><li><a href="/syrutra.html" class="imgBox prz"><img data-src="../upload/images/20171/20171101844297969379.jpg" class="best-fill"></img></a><a href="/syrutra.html" class="masks pra bg100 cleargap"><div class="ibox vertical"><div class="compLogo"><img class="img-responsive" src="../upload/images/20171/2017110184439109484.png"></img></div><div class="instro">因脉先后服务与圣元集团官网建设、我的天使官网建设、B2B经销商系统建设运维并定期制定营销活动，长期合作以来因脉帮助圣元树立全新的品牌形象，并通过线上渠道实现销售盈利...</div><!-- <a href="../#" class="more pra bg100"></a> --></div><strong class="ibox"></strong></a></li><li><a href="/isoftstone.html" class="imgBox prz"><img data-src="../upload/images/20171/20171101937921529.jpg" class="best-fill"></img></a><a href="/isoftstone.html" class="masks pra bg100 cleargap"><div class="ibox vertical"><div class="compLogo"><img class="img-responsive" src="../upload/images/20171/2017110192562039373.png"></img></div><div class="instro">软通动力信息科技技术有限公司作为中国软件服务外包十大领军企业，拥有行业内顶尖的技术和丰富的经验。因脉帮助软通动力打造全新互联网线上平台，深入探寻业务的核心价值与社会意义...</div><!-- <a href="../#" class="more pra bg100"></a> --></div><strong class="ibox"></strong></a></li><li><a href="/olympus.html" class="imgBox prz"><img data-src="../upload/images/20171/201711018533021844.jpg" class="best-fill"></img></a><a href="/olympus.html" class="masks pra bg100 cleargap"><div class="ibox vertical"><div class="compLogo"><img class="img-responsive" src="../upload/images/20171/20171101853443909553.png"></img></div><div class="instro">09年与奥林巴斯结缘，经过7年共同成长，因脉成为奥林巴斯不可或缺的合作伙伴，因脉会不定期与奥林巴斯就互联网最新的实现技术、UI设计与交互方式进行探讨和分享...</div><!-- <a href="../#" class="more pra bg100"></a> --></div><strong class="ibox"></strong></a></li><li><a href="/nec.html" class="imgBox prz"><img data-src="../upload/images/20171/2017110185936624330.jpg" class="best-fill"></img></a><a href="/nec.html" class="masks pra bg100 cleargap"><div class="ibox vertical"><div class="compLogo"><img class="img-responsive" src="../upload/images/20171/20171101859257037902.png"></img></div><div class="instro">因脉帮助NEC (中国)有限公司打造了NEC软件产品售后服务门户网站,目的为购买NEC软件产品的企业及个人提供技术支持平台,依托NEC的百年创新历史、秉承长期积累的先进技术和行业经验...</div><!-- <a href="../#" class="more pra bg100"></a> --></div><strong class="ibox"></strong></a></li><li><a href="/novonordisk.html" class="imgBox prz"><img data-src="../upload/images/20171/2017120111675314716.jpg" class="best-fill"></img></a><a href="/novonordisk.html" class="masks pra bg100 cleargap"><div class="ibox vertical"><div class="compLogo"><img class="img-responsive" src="../upload/images/20171/20171201116271406691.png"></img></div><div class="instro">因脉帮助诺和诺德打造响应式产品站点，满足企业与其客户的双向需求，解决之前客户不了解企业产品，产品粘性不高与业务转化效率等问题...</div><!-- <a href="../#" class="more pra bg100"></a> --></div><strong class="ibox"></strong></a></li> 
+			<li class="lastMore-1"></li>
+		</ul>
+		<!-- <div class="jPager cleargap">
+			<a class="ibox active" href="#">1</a>
+			<a class="ibox" href="#">2</a>
+			<a class="ibox" href="#">3</a>
+			<a class="ibox" href="#">4</a>
+			<a class="ibox" href="#">5</a>
+		</div> -->
+		<div class="footer">
+			<div class="inner">
+				<div class="infos fl">
+					<div class="addrTels">
+						<div class="addr fl">
+							北京市朝阳区朝外大街乙6号朝外SOHO D座0622
+						</div>
+						<div class="tels fr">
+							010-59009515<br/>
+							010-59009565-8800
+						</div>
+					</div>
+					<div class="flinks">
+						<a href="OurCases.html">
+							<span>案例</span>
+							<i>CASE&WORKS</i>
+						</a>
+						<a href="OurServices.html">
+							<span>业务领域</span>
+							<i>BUSINESS</i>
+						</a>
+						<a href="AboutUs.html">
+							<span>关于因脉</span>
+							<i>ABOUT INMO</i>
+						</a>
+						<a href="../talented.html">
+							<span>人才招聘</span>
+							<i>TALENTED PERSON</i>
+						</a>
+					</div>
+				</div>
+				<div class="erCode fr">
+					<a href="javascript:;" class="imgBox">
+						<img src="../images/ercode.jpg">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="cprt cprt1">
+			Innovation In Motion     copyright © 2001-2016 京ICP备05028015号-5
+		</div>
+		<a href="javascript:;" id="backToTop"></a>
+	</body>
+</html>
+<script>
+	seajs.use(['init'],function(){
+
+		var divBtn = $('.divBtn span');
+		var iH = $('.divDetail .ih');
+
+		$(window).resize(function(){
+
+			divBtn.show().css({
+
+				top:( divBtn.parent().outerHeight() - divBtn.height() )/2
+
+			})
+
+			iH.show().each(function(){
+
+				$(this).css({
+					top:( $(this).parent().outerHeight() - $(this).height() )/2
+				})
+
+			})
+
+		}).resize()
+
+
+		var targetLi = $('.caseList li');
+
+		targetLi.on('mouseenter',function(){
+
+			$(this).find('.masks').stop().animate({opacity:1})
+
+		});
+
+		targetLi.on('mouseleave',function(){
+
+			$(this).find('.masks').stop().animate({opacity:0});
+
+		});
+
+
+
+
+
+		$('#down').on('click',function(){
+
+			$('body,html').animate({
+				scrollTop:$('#caseList').offset().top
+			})
+
+		})
+
+
+		var yunwei = $('.yunwei');
+
+		var onOffs = true;
+
+		$(window).on('scroll',function(){
+
+			var scrollTop = $(this).scrollTop();
+
+			if(scrollTop > 500){
+
+				yunwei.find('.ibox-1').animate({
+					opacity:1
+				},function(){
+
+					yunwei.find('.ibox-5').animate({
+						opacity:1
+					},function(){
+
+						yunwei.find('.ibox-2').animate({
+							opacity:1
+						},function(){
+
+							yunwei.find('.ibox-6').animate({
+								opacity:1
+							},function(){
+
+								yunwei.find('.ibox-3').animate({
+									opacity:1
+								},function(){
+
+									yunwei.find('.ibox-7').animate({
+										opacity:1
+									},function(){
+										
+										yunwei.find('.ibox-4').animate({
+											opacity:1
+										})
+
+									})
+
+								})
+
+							})
+
+						})
+					})
+
+				})
+
+
+			}else{
+
+				onOffs = true;
+
+			}
+
+
+			if(onOffs){
+
+				if(scrollTop > $('#caseList').offset().top - 480){
+
+					onOffs = false;
+
+					$('#down').click();
+					
+				}
+
+			}
+
+
+
+		});
+
+
+
+
+
+
+
+
+
+	});
+</script>
+
+
