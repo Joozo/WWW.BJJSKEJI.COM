@@ -1,1083 +1,614 @@
-﻿<!DOCTYPE html>
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-		<meta name="renderer" content="webkit"/>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="keywords" content="北京因脉科技有限公司"/>
-		<meta name="description" content="一直坚持为企业创造互联网价值,因脉科技帮助企业探寻互联网领域的转变与机会，
-					以创新的方式改善企业的产品 服务 流程及体验 提供跨平台媒介和技术的综合解决方案,
-					创造富有影响力的商业及管理价值
-					16年来我们已经为超过1000多家企业提供过创新的互联网解决方案，
-					在为客户打造创新易用的产品和服务之路上一直前行，持续创造价值."/>
-        <!--<meta name="baidu-site-verification" content="Zb1K7ySI1D" />-->
-		<meta name="viewport" content="width=device-width"/>
-		<title>因脉科技-品牌定制化的互联网服务商</title>
-		
-        <link rel="stylesheet" href="js/Library/fancybox/fancybox.css"/>
-		<link rel="stylesheet" href="css/base.css"/>
-		<link rel="stylesheet" href="css/index.css"/>
-		<script src="scripts/jquery-1.11.0.min.js"></script>
-		<script src="scripts/carouFredSel.js"></script>
-		<script src="scripts/image-scale.min.js"></script>
-		<script src="scripts/lazyloadxt.min.js"></script>
-		<script src="js/Library/fancybox/fancybox.js"></script>
-        <script>
-            var _hmt = _hmt || [];
-            (function() {
-              var hm = document.createElement("script");
-              hm.src = "https://hm.baidu.com/hm.js?d1f80cf914728f081d91069964a82426";
-              var s = document.getElementsByTagName("script")[0]; 
-              s.parentNode.insertBefore(hm, s);
-            })();
-            
-            /*
-                *
-                * 判断PC端与WAP端
-                */
-                var mobile_bs = {
-                    versions: function() {
-                        var u = navigator.userAgent;
-                        return {
-                            trident: u.indexOf('Trident') > -1, //IE内核
-                            presto: u.indexOf('Presto') > -1,  //opera内核
-                            webKit: u.indexOf('AppleWebKit') > -1,  //苹果、谷歌内核
-                            gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,  //火狐内核
-                            mobile: !! u.match(/AppleWebKit.*Mobile.*/) || !! u.match(/AppleWebKit/) && u.indexOf('QIHU') && u.indexOf('QIHU') > -1 && u.indexOf('Chrome') < 0,  //是否为移动终端
-                            ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),  //ios终端
-                            android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1,  //android终端或者uc浏览器
-                            iPhone: u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1,   //是否为iPhone或者QQHD浏览器
-                            iPad: u.indexOf('iPad') > -1,     //是否iPad
-                            webApp: u.indexOf('Safari') == -1   //是否web应该程序，没有头部与底部
-                        }
-                    } ()
-                };
-
-                if (mobile_bs.versions.mobile) {
-                    if (mobile_bs.versions.android || mobile_bs.versions.iPhone || mobile_bs.versions.iPad || mobile_bs.versions.ios) {
-                        window.location.href = "wap/index.html";
-                    }
-                };
-            </script>
-	</head>
-	<body>
-        <div class="iconpos iconpos-1">
-           
-            <a href="javascript:;" class="iconses phones bg100"></a>
-            <a href="javascript:;" class="iconses backTop bg100"></a>
-        </div>
-        <script>
-            //$(".message").fancybox({ 
-            //    'width': '75%',
-            //    'height': '75%',
-            //    'autoScale': false,
-            //    'transitionIn': 'none',
-            //    'transitionOut': 'none',
-            //    'type': 'iframe'
-            //});
-        </script>
-		<div class="indexBaner prz">
-			<ul class="setBaner" id="setBaner">
-				<!--<li>-->
-					<!--<div class="link prz">-->
-<!--						<img class="best-fill" data-src="images/ban1.jpg">-->
-						<!--<video src="video/chunjie.mp4" loop="loop" data-src="video/chunjie.mp4" poster="" autoplay="autoplay" muted="" width="100%" height="100%" style="height:100%;width:100%;object-fit: cover"></video>-->
-						<!-- <span class="more pra">了解因脉</span> -->
-					<!--</div>-->
-				<!--</li>-->
-				<!-- <li>
-					<div class="link prz"> -->
-<!--						<img class="best-fill" data-src="images/ban1.jpg">-->
-						<!-- <video src="images/2019.mp4" loop="loop" data-src="images/2019.mp4" poster="" autoplay="autoplay" muted="" width="100%" height="100%" style="height:100%;width:100%;object-fit: cover"></video> -->
-						<!-- <span class="more pra">了解因脉</span> -->
-					<!-- </div>
-				</li> -->
-                <!--<li>
-					<div class="link prz">
-						<img class="best-fill" data-src="images/ban2020.jpg">
-					</div>
-				</li>	-->	
-                <li>
-					<div class="link prz">
-						<img class="best-fill" data-src="images/ban1.jpg">
-<!--						<img class="best-fill" data-src="images/ban2_new.jpg">-->
-<!--						 <span class="more pra">了解因脉</span> &ndash;&gt;-->
-					</div>
-				</li>
-
-				
-				<!--<li>
-					<style>
-						@keyframes myRotate{
-							0%{ -webkit-transform: rotate(0deg);}
-							50%{ -webkit-transform: rotate(180deg);}
-							100%{ -webkit-transform: rotate(360deg);}
-						}
-					</style>
-					<div class="link prz">
-						<img class="best-fill" data-src="images/2020-2.png">
-						<img class="best-fill" src="images/1920-860.png" alt="" style="width: 100%;height: 100%;object-fit: cover;">
-						<img src="images/68-68.png" alt="" style="position: absolute;top: 273px;left: 100px;width: 68px;height: 68px; animation:myRotate 8s linear infinite;">
-						<img src="images/95-96.png" alt="" style="position:  absolute;top: 55px;left: 395px;width: 95px;height: 96px; animation:myRotate 9s linear infinite;">
-						<img src="images/118-118.png" alt="" style="position: absolute;bottom: 28px;left: 200px;width: 118px;height: 118px; animation:myRotate 10s linear infinite;">
-						<img src="images/118-118.png" alt="" style="position: absolute;bottom: 53px;left: 50%;width: 118px;height: 118px; animation:myRotate 8s linear infinite;">
-						
-					</div>
-				</li>-->
-				<!--<li>
-					<div class="link prz">
-						<img class="best-fill" data-src="images/ban3.jpg">
-						<span class="more pra">了解因脉</span>
-					</div>
-				</li>
-				-->
-			</ul>
-			<div class="indexPager cleargap pra" id="indexPager"></div>
-			<a href="javascript:;" class="logo pra" id="logo">
-				<div class="linewaper pra">
-					<span class="line line-1" id="line-1"></span>
-					<span class="line line-2" id="line-2"></span>
-					<span class="line line-3" id="line-3"></span>
-                    <span class="line line-4" id="line-4"></span>
-				</div>
-			</a>
-		</div>
-		<div class="menuContent pra" id="menuContent">
-			<div class="smallSec pra">
-				<a href="index.html" class="mlogo bg100"></a>
-				<span class="mlogoLine"></span>
-				<div class="butX bg100" id="butX">
-					<span class="but butL"></span>
-					<span class="but butR"></span>
-				</div>
-			</div>
-			<div class="mlist pra">
-				<a href="index.html" class="items cleargap active">
-					<span class="chin ibox">首页</span>
-					<span class="engs ibox">HOME</span>
-				</a>
-				<a href="service/caseworks.aspx?nodeid=482" class="items cleargap">
-					<span class="chin ibox">案例&作品</span>
-					<span class="engs ibox">CASE&WORKS</span>
-				</a>
-				<a href="service.html" class="items cleargap">
-					<span class="chin ibox">服务</span>
-					<span class="engs ibox">SERVICE</span>
-				</a>
-				<a href="about.html" class="items cleargap">
-					<span class="chin ibox">关于因脉</span>
-					<span class="engs ibox">ABOUT INMO</span>
-				</a>
-				<a href="talented.html" class="items cleargap">
-					<span class="chin ibox">人才</span>
-					<span class="engs ibox">TALENTED PERSON</span>
-				</a>
-				<a href="contact.html" class="items cleargap">
-					<span class="chin ibox">联系</span>
-					<span class="engs ibox">CONTACT</span>
-				</a>
-			</div>
-		</div>
-		<div class="indexMain prz">
-			<div class="items fl">
-				<div class="imgBox prz">
-					<img class="best-fill" data-src="images/haha-1.jpg">
-				</div>
-				<a href="eximbank.html" class="nameCard pra nameCard-1">
-					<div class="inner prz">
-						<!-- <div class="imgCon imgCon_1 fl"></div> -->
-						<div class="company fr bg100"></div>
-						<div class="description pra">
-							<span class="options">全平台互联网品牌建设</span>
-							<span class="options">运营维护&增值</span>
-							<span class="options">移动端应用与开发</span>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="items fl">
-				<div class="imgBox prz">
-					<img class="best-fill" data-src="images/haha-2.jpg">
-				</div>
-				<a href="zhongguohangyou.html" class="nameCard pra nameCard-2">
-					<div class="inner prz">
-						<!-- <div class="imgCon imgCon_2 fl"></div> -->
-						<div class="company fr bg100"></div>
-						<div class="description pra">
-							<span class="options">互联网平台建设</span>
-							<span class="options">运营维护&增值</span>
-							
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="items fl">
-				<div class="imgBox prz">
-					<img class="best-fill" data-src="images/haha-3.jpg">
-				</div>
-				<a href="subaru.html" class="nameCard pra nameCard-3">
-					<div class="inner prz">
-						<!-- <div class="imgCon imgCon_3 fl"></div> -->
-						<div class="company fr bg100"></div>
-						<div class="description pra">
-							
-							<span class="options">移动端应用开发</span>
-							<span class="options">运营维护&增值</span>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="items fl">
-				<div class="imgBox prz">
-					<img class="best-fill" data-src="images/haha-4.jpg">
-				</div>
-				<a href="syrutra.html" class="nameCard pra nameCard-4">
-					<div class="inner prz">
-						<!-- <div class="imgCon imgCon_4 fl"></div> -->
-						<div class="company fr bg100"></div>
-						<div class="description pra">
-							<span class="options">全平台互联网品牌建设</span>
-                                                        <span class="options">电商平台建设</span>
-							<span class="options">移动端应用与开发</span>
-							<span class="options">运营维护&增值</span>
-
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="items fl">
-				<div class="imgBox prz">
-					<img class="best-fill" data-src="images/haha-5.jpg">
-				</div>
-				<a href="novonordisk.html" class="nameCard pra nameCard-5">
-					<div class="inner prz">
-						<!-- <div class="imgCon imgCon_5 fl"></div> -->
-						<div class="company fr bg100"></div>
-						<div class="description pra">
-							<span class="options">全平台互联网品牌建设</span>
-							<span class="options">移动端开发</span>
-							<span class="options">运营维护&增值</span>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="items fl last">
-				<div class="imgBox prz">
-					<img class="best-fill" data-src="images/haha-6.jpg">
-				</div>
-				<a href="pku.html" class="nameCard pra nameCard-6">
-					<div class="inner prz">
-						<!-- <div class="imgCon imgCon_6 fl"></div> -->
-						<div class="company fr bg100"></div>
-						<div class="description pra">
-							<span class="options">网站群建设</span>
-							<span class="options">运营维护&增值</span>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="items fl">
-				<div class="imgBox prz">
-					<img class="best-fill" data-src="images/haha-7.jpg">
-				</div>
-				<a href="yczb.html" class="nameCard pra nameCard-7">
-					<div class="inner prz">
-						<!-- <div class="imgCon imgCon_7 fl"></div> -->
-						<div class="company fr bg100"></div>
-						<div class="description pra">
-							<span class="options">互联网品牌网站建设</span>
-                                                        <span class="options">运营维护&增值</span>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="items fl">
-				<div class="imgBox prz">
-					<img class="best-fill" data-src="images/haha-8.jpg">
-				</div>
-				<a href="EPSON.html" class="nameCard pra nameCard-8">
-					<div class="inner prz">
-						<!-- <div class="imgCon imgCon_8 fl"></div> -->
-						<div class="company fr bg100"></div>
-						<div class="description pra">
-							<span class="options">内外网平台建设</span>
-							<span class="options">运营维护</span>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="items fl">
-				<div class="imgBox prz">
-					<img class="best-fill" data-src="images/haha-9.jpg">
-				</div>
-				<a href="eni.html" class="nameCard pra nameCard-9">
-					<div class="inner prz">
-						<!-- <div class="imgCon imgCon_9 fl"></div> -->
-						<div class="company fr bg100"></div>
-						<div class="description pra">
-							<span class="options">中国区内网平台建设</span>
-							<span class="options">运营维护</span>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="items fl">
-				<div class="imgBox prz">
-					<img class="best-fill" data-src="images/haha-10.jpg">
-				</div>
-				<a href="icntv.html" class="nameCard pra nameCard-10">
-					<div class="inner prz">
-						<!-- <div class="imgCon imgCon_10 fl"></div> -->
-						<div class="company fr bg100"></div>
-						<div class="description pra">
-							<span class="options">全平台互联网品牌建设</span>
-							<span class="options">运营维护&增值</span>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="items fl">
-				<div class="imgBox prz">
-					<img class="best-fill" data-src="images/haha-12.jpg">
-				</div>
-				<a href="airbus.html" class="nameCard pra nameCard-11">
-					<div class="inner prz">
-						<!-- <div class="imgCon imgCon_11 fl"></div> -->
-						<div class="company fr bg100"></div>
-						<div class="description pra">
-							<span class="options">全平台互联网品牌建设</span>
-							<span class="options">交互体验馆建设</span>
-							<span class="options">运营维护</span>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="items fl last">
-				<div class="imgBox prz">
-					<img class="best-fill" data-src="images/haha-11.jpg">
-				</div>
-				<a href="isoftstone.html" class="nameCard pra nameCard-12">
-					<div class="inner prz">
-						<!-- <div class="imgCon imgCon_12 fl"></div> -->
-						<div class="company fr bg100"></div>
-						<div class="description pra">
-							<span class="options">全平台互联网品牌建设</span>
-                                                        <span class="options">线上全景展厅建设</span>
-							<span class="options">运营维护&增值</span>
-							
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="items fl">
-				<div class="imgBox prz">
-					<img class="best-fill" data-src="images/haha-13.jpg">
-				</div>
-				<a href="nec.html" class="nameCard pra nameCard-13">
-					<div class="inner prz">
-						<!-- <div class="imgCon imgCon_13 fl"></div> -->
-						<div class="company fr bg100"></div>
-						<div class="description pra">
-							<span class="options">网站群建设</span>
-							<span class="options">中国区服务平台建设</span>
-							<span class="options">运营维护&增值</span>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="items fl">
-				<div class="imgBox prz">
-					<img class="best-fill" data-src="images/haha-14.jpg">
-				</div>
-				<a href="bull.html" class="nameCard pra nameCard-14">
-					<div class="inner prz">
-						<!-- <div class="imgCon imgCon_14 fl"></div> -->
-						<div class="company fr bg100"></div>
-						<div class="description pra">
-							<span class="options">全平台互联网品牌建设</span>
-							<span class="options">运营维护&增值</span>		
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="items fl">
-				<div class="imgBox prz">
-					<img class="best-fill" data-src="images/haha-15.jpg">
-				</div>
-				<a href="evergrade.html" class="nameCard pra nameCard-15">
-					<div class="inner prz">
-						<!-- <div class="imgCon imgCon_15 fl"></div> -->
-						<div class="company fr bg100"></div>
-						<div class="description pra">
-							<span class="options">网站群建设</span>
-							<span class="options">品牌网站建设</span>
-							<span class="options">运营维护&增值</span>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="items fl">
-				<div class="imgBox prz">
-					<img class="best-fill" data-src="images/haha-16.jpg">
-				</div>
-				<a href="olympus.html" class="nameCard pra nameCard-16">
-					<div class="inner prz">
-						<!-- <div class="imgCon imgCon_16 fl"></div> -->
-						<div class="company fr bg100"></div>
-						<div class="description pra">
-							<span class="options">全平台互联网品牌建设</span>
-							<span class="options">移动端应用与开发</span>
-							<span class="options">运营维护&增值</span>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="items fl">
-				<div class="imgBox prz">
-					<img class="best-fill" data-src="images/haha-17.jpg">
-				</div>
-				<a href="hisense.html" class="nameCard pra nameCard-17">
-					<div class="inner prz">
-						<!-- <div class="imgCon imgCon_17 fl"></div> -->
-						<div class="company fr bg100"></div>
-						<div class="description pra">
-							<span class="options">全平台互联网品牌建设</span>
-							<span class="options">运营维护&增值</span>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="items fl lastMore">
-				<a href="service/caseworks.aspx?nodeid=482" class="ibox">
-					了解更多
-					<span>--></span>
-				</a>
-			</div>
-		</div>
-		<div class="dynEarth prz">
-			<div id="canvasPIXI"></div>
-			<span class="earthBtn earthBtn_1 pra"></span>
-			<span class="earthBtn earthBtn_2 pra"></span>
-			<span class="earthBtn earthBtn_3 pra"></span>
-			<span class="earthBtn earthBtn_4 pra"></span>
-			<div class="earthCnt active pra">
-				<img src="images/earthCnt_1.png">
-				<a href="service\Customercasepc.html" class="earthMore">READ MORE</a>
-			</div>
-			<div class="earthCnt pra">
-				<img src="images/earthCnt_2.png">
-				<a href="service\Customercaseapp.html" class="earthMore">READ MORE</a>
-			</div>
-			<div class="earthCnt pra">
-				<img src="images/earthCnt_3.png">
-				<a href="service\Customercaseyunwei.html" class="earthMore">READ MORE</a>
-			</div>
-			<div class="earthCnt pra">
-				<img src="images/earthCnt_4.png?v0.1">
-				<a href="service\Customercaseecom.html" class="earthMore">READ MORE</a>
-			</div>
-
-			<div class="footer pra">
-				<div class="inner">
-					<!-- <div class="addfot" style="margin-bottom: 20px; text-align: right;padding-right:26px;">
-						<img src="images/butlogo.png" style="width:60px; margin-right: 20px; vertical-align: middle;" alt="">
-						<span style="vertical-align: middle;">北京因脉科技有限公司</span>
-					</div> -->
-					<div class="infos fr">
-						<div class="addrTels" style="padding-right: 0px;">
-							<div class="addr fl">
-								北京总部：尚都SOHO 南塔1003
-							</div>
-							<div class="tels fr" style="padding-right:0px; line-height: 28px;">
-								010-58691136&emsp;&emsp;010-58695133
-							</div>
-						</div>
-						<div class="flinks">
-							<a href="OurCases.html">
-								<span>案例</span>
-								<i>CASE&WORKS</i>
-							</a>
-							<a href="OurServices.html">
-								<span>业务领域</span>
-								<i>BUSINESS</i>
-							</a>
-							<a href="AboutUs.html">
-								<span>关于因脉</span>
-								<i>ABOUT INMO</i>
-							</a>
-							<a href="talented.html">
-								<span>人才招聘</span>
-								<i>TALENTED PERSON</i>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="cprt pra">
-				Innovation In Motion     copyright © 2001-2018 <a href="https://beian.miit.gov.cn/" style="color: #888888;" target="_blank">京ICP备05028015号-5</a>
-			</div>
-		</div>
-		<a href="javascript:;" id="backToTop"></a>
-	</body>
-</html>
-<script type="text/javascript">
-	var classArray = ['best-fill','best-fit-down','best-fit','fill','none'];
-
-	$.extend($.lazyLoadXT,{
-		forceLoad:true,
-		onload:function(){
-
-			for(var i=0;i<5;i++){
-
-				if($(this).hasClass(classArray[i])){
-
-					scales($(this),classArray[i],'center',500);
-					
-					return;
-
-				}
-			}
-		}
-	});
-
-	function scales(object,method,position,fadeTime){
-		object.imageScale({scale:method,align:position,fadeInDuration:fadeTime});
-	}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>互联网广告投放一站式平台-艾迪亚传媒</title>
+<link rel="stylesheet" type="text/css" href="static/css/style.css">
+<link rel="stylesheet" type="text/css" href="static/css/common.css">	
+<link rel="stylesheet" href="static/css/swiper-4.4.2.min.css">
+<link rel="stylesheet" type="text/css" href="static/css/animate.min.css">
+<link rel="stylesheet" href="static/css/bootstrap.min.css">
+<link rel="stylesheet" href="static/css/fontawesome-5.8.1.css">
+<link rel="stylesheet" href="static/css/swiper.min.css">
+<link rel="stylesheet" href="static/css/style1.css">
+<style>
+.mask {
+	position: fixed;
+	bottom: 0;
+	left:100%;
+	width: 100%;
+	height: 128px;
+	background: url("static/image/4772e66619c0f19b5b4d21b132b4a717.jpg")  no-repeat scroll center;
+	z-index: 1001;
+}
+.closeee{
+	background: url("static/image/closesanjiao.png")  no-repeat center center;
+}
+.mask .gotoCenter {
+	display: block;
+	width: 1000px;
+	height: 140px;
+	margin: 0 auto;
+}
+.mask .closeee {
+	position: absolute;
+	top: 0;
+	left: 20px;
+	margin-left: 0px;
+	width: 40px;
+	height: 100%;
+	cursor: pointer;
+}
+.clickarea{
+	position: absolute;
+	top: 0;
+	left: 200px;
+	margin-left: 0px;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+.thumbnail {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	width: 184px;
+	height: 124px;
+	cursor: pointer;
+	/*display: none;*/
+}
+@-webkit-keyframes rotate {
+	from {-webkit-transform:rotate(0deg);}
+	to {-webkit-transform:rotate(360deg);}
+}
+</style>
+<!--baidu-->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?ca472fec49a72009b6f148179380b820";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
 </script>
-<script type="text/javascript">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?dc6f9d8a907747cdf3a9d9e6823e2b24";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!--end-->
+</head>
+	
+<body oncontextmenu="return false" onselectstart="return false">
+<div class="index-header clearfix">
+	<div class="index-logo fl">
+		<a href=""><img src="static/picture/logo.png"></a>
+	</div>
+	<ul class="index-nav fl">
+		<li><a href="#">首页</a></li>
+		<li><a href="products.html">微信朋友圈</a></li>
+		<li><a href="xinxl.html">信息流</a></li>
+		<li><a href="kol.html">KOL</a></li>
+		<li><a href="shhyx.html">社会化营销</a></li>
+		<li><a href="dyy.html">代运营</a></li>
+		<li><a href="contact.html">联系我们</a></li>
+	</ul>
+	<div class="index-header-right fr">
+		<a href="" class="search-btn">搜索</a>
+	</div>
+	<div class="clear"></div>
+</div>
+	
+<div class="search_sec">
+	<a href="#" title="" class="close-search"><i class=" la-close"><img src="static/picture/icon5.png"></i></a>
+	<div class="search_field">
+		<div class="container">
+			<form>
+				<input type="text" name="search" placeholder="Search for...">
+				<button type="submit"><img src="static/picture/search2.png" alt=""></button>
+			</form>
+		</div>
+	</div>
+</div>	
+<!--search_sec end-->
 
-	// 轮播图构造函数 // id,pagerId,prev,next
-	function setCarouselFn(options){
-
-		// 轮播ID
-		this.setCarousel = $('#'+options.id);
-
-		// 轮播点
-		this.carPager = options.pagerId ? $('#'+options.pagerId) : null;
-
-		// 轮播项
-		this.setCarouselItems = this.setCarousel.children();
-
-		// 轮播项个数
-		this.itemsLength = this.setCarouselItems.size();
-
-		// 初始按钮变量
-		this.carBtns = '';
-
-		// 当前项变量
-		this.iNow = 0;
-
-		// 左按钮
-		this.prev = options.prev ? $('#'+options.prev) : null;
-
-		// 右按钮
-		this.next = options.next ? $('#'+options.next) : null;
-
-
-	}
-
-	// 方法
-	setCarouselFn.prototype = {
-
-		// 初始化
-		init : function(){
-
-			this.createBtns();
-			this.setOptions();
-
-			this.carPager ? this.addEvent() : false;
-
-			this.next ? this.contrlBtn() : false;
+<div id="bloc">
+	<article id="index">
+		<div class="banner-position">
+			<div class="index-banner swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide">
+			          <img src="static/picture/banner1.jpg">
+			        </div>
+			        <div class="swiper-slide">
+			          <img src="static/picture/banner2.jpg">
+			        </div>
+			        <div class="swiper-slide">
+			          <img src="static/picture/banner1.jpg">
+			        </div>
+			    </div>
+			    <!-- Add Navigation -->
+			    <div class="swiper-button-prev swiper-button-white"></div>
+			    <div class="swiper-button-next swiper-button-white"></div>
+		  	</div>
+			<div class="banner-wave">
+				<svg viewbox="0 0 120 28">
 			
-
-		},
-		// 生成按钮
-		createBtns : function(){
-
-			for(var i = 0;i < this.itemsLength;i++){
-
-				i == 0 ? this.carBtns += "<span class='ibox z-hov'></span>" : this.carBtns += "<span class='ibox'></span>";    	
-
-			}
-
-			this.carPager && this.carPager.html(this.carBtns);
-
-		},
-
-		// 样式初始化
-		setOptions : function(){
-
-			for(var i = this.itemsLength-1; i >=0 ;i--){
-
-				this.setCarouselItems.eq(this.iNow).css({
-					zIndex:i,
-					opacity:0
-				});
-
-				this.iNow++;
-
-			}
-
-			this.iNow = 0;
-
-			this.setCarouselItems.eq(0).css('opacity',1)
-
-		},
-
-		// 添加事件
-		addEvent : function(){
-
-			var This = this;
-
-			this.carPager.on('click','span',function(){
-
-				var index = $(this).index();
-
-				This.iNow = index;
-
-				$(this).addClass('z-hov').siblings().removeClass('z-hov');
-
-				This.move( index );
-
-			})
-
-		},
-
-		// 左右按钮控制
-		contrlBtn:function(){
-
-			var This = this;
-
-			if(this.itemsLength == 1){
-
-				this.next.hide();
-				this.prev.hide();
-
-				return;
-
-			}
-
-			this.next.on('click',function(){
+					<defs>
+			
+						<filter id="goo">
+			
+							<fegaussianblur in="SourceGraphic" stddeviation="1" result="blur"></fegaussianblur>
+			
+							<fecolormatrix in="blur" mode="matrix" values="
+			
+							   1 0 0 0 0  
+							
+							   0 1 0 0 0  
+							
+							   0 0 1 0 0  
+							
+							   0 0 0 13 -9" result="goo"></fecolormatrix>
+			
+							<xfeblend in="SourceGraphic" in2="goo"></xfeblend>
+			
+						</filter>
+			
+						<path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z"></path>
+			
+					</defs>
+			
+					<use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2"></use>
+			
+					<use id="wave2" class="wave" xlink:href="#wave" x="0" y="0"></use>
+			
+					<g class="gooeff" filter="url(#goo)">
+			
+						<circle class="drop drop1" cx="20" cy="2" r="8.8"></circle>
+			
+						<circle class="drop drop2" cx="25" cy="2.5" r="7.5"></circle>
+			
+						<circle class="drop drop3" cx="16" cy="2.8" r="9.2"></circle>
+			
+						<circle class="drop drop4" cx="18" cy="2" r="8.8"></circle>
+			
+						<circle class="drop drop5" cx="22" cy="2.5" r="7.5"></circle>
+			
+						<circle class="drop drop6" cx="26" cy="2.8" r="9.2"></circle>
+			
+						<circle class="drop drop1" cx="5" cy="4.4" r="8.8"></circle>
+			
+						<circle class="drop drop2" cx="5" cy="4.1" r="7.5"></circle>
+			
+						<circle class="drop drop3" cx="8" cy="3.8" r="9.2"></circle>
+			
+						<circle class="drop drop4" cx="3" cy="4.4" r="8.8"></circle>
+			
+						<circle class="drop drop5" cx="7" cy="4.1" r="7.5"></circle>
+			
+						<circle class="drop drop6" cx="10" cy="4.3" r="9.2"></circle>
+			
+						<circle class="drop drop1" cx="1.2" cy="5.4" r="8.8"></circle>
+			
+						<circle class="drop drop2" cx="5.2" cy="5.1" r="7.5"></circle>
+			
+						<circle class="drop drop3" cx="10.2" cy="5.3" r="9.2"></circle>
+			
+						<circle class="drop drop4" cx="3.2" cy="5.4" r="8.8"></circle>
+			
+						<circle class="drop drop5" cx="14.2" cy="5.1" r="7.5"></circle>
+			
+						<circle class="drop drop6" cx="17.2" cy="4.8" r="9.2"></circle>
+			
+						<use id="wave1" class="wave" xlink:href="#wave" x="0" y="1"></use>
+			
+					</g>
+				</svg>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<!--业务范围-->
+			<div class="index-yewu">
+				<div class="index-con clearfix">
+					<div class="index-title">
+						<h3>bailuozhineng</h3>
+						<h2>主营业务</h2>			
+					</div>
 					
-				This.iNow ++;
-
-				This.move(This.iNow);
-
-			})
-
-			this.prev.on('click',function(){
-
-				This.iNow --;
-
-				This.move(This.iNow);
-
-			})
-
-		},
-
-		// 运动
-		move:function(index){
-
-			if(index == this.itemsLength){
-
-				this.iNow = index = 0;
-
-			}
-
-			if(index < 0 ){
-
-				this.iNow = index = this.itemsLength - 1;
-
-			}
+					<div class="index-yewu-info clearfix">
+						<div class="index-yewu-pic fl">
+							<a href="">
+								<img src="static/picture/pic3.jpg" class="scroll-animate classGo" data-tclass="go">
+							</a>
+						</div>
+						<ul class="index-yewu-list clearfix fr">
+							<li>
+								<a href="">
+									<em><img src="static/picture/ico1.png"></em>
+									<div class="text">
+										<h2>信息流广告</h2>
+										<span>News feed Ads</span>
+										<p>微信朋友圈广告、腾讯广告、短视频广告、全网信息流投放</p>
+									</div>
+									<div class="button bz-buttonAnimat clockwise both">
+										<div class="inner"></div>
+									</div>									
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<em><img src="static/picture/ico2.png"></em>
+									<div class="text">
+										<h2>KOL</h2>
+										<span>KOL marketing</span>
+										<p>自媒体、种草引流、直播电商</p>
+									</div>	
+									<div class="button bz-buttonAnimat clockwise both">
+										<div class="inner"></div>
+									</div>	
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<em><img src="static/picture/ico3.png"></em>
+									<div class="text">
+										<h2>代运营</h2>
+										<span>Generation </span>
+										<p>短视频代运营、公众号代运营、微博代运营、小红书代运营</p>
+									</div>	
+									<div class="button bz-buttonAnimat clockwise both">
+										<div class="inner"></div>
+									</div>	
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<em><img src="static/picture/ico4.png"></em>
+									<div class="text">
+										<h2>社会化营销</h2>
+										<span>Social marketing</span>
+										<p>事件营销、新闻发稿、品牌公关、社群营销</p>
+									</div>	
+									<div class="button bz-buttonAnimat clockwise both">
+										<div class="inner"></div>
+									</div>	
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<em><img src="static/picture/ico5.png"></em>
+									<div class="text">
+										<h2>SEO</h2>
+										<span>SEO optimization</span>
+										<p>SEO优化、问答营销、舆情公关、网站建设</p>
+									</div>	
+									<div class="button bz-buttonAnimat clockwise both">
+										<div class="inner"></div>
+									</div>	
+								</a>
+							</li>
+							<!--
+							<li>
+								<a href="">
+									<em><img src="static/picture/ico6.png"></em>
+									<div class="text">
+										<h2>行为分析</h2>
+										<span>behavior analysis</span>
+										<p>互联网为依托，对商家的线上服务、客户的线下体验以及与现代物流进行深度融合</p>
+									</div>	
+									<div class="button bz-buttonAnimat clockwise both">
+										<div class="inner"></div>
+									</div>	
+								</a>
+							</li>
+							-->
+						</ul>
+					</div>			
+				</div>
+			</div>
+			<div class="clear"></div>
+			
+			<div class="position-yuan clearfix">			
+				<div class="bg scr-el" data-v="1" data-speed-x="12" data-offset="150 "></div>
+			</div>
+			<!--about-->
+			<div class="index-about">
+				<div class="index-con clearfix">
+					<div class="index-about-text fl">
+						<div class="index-title">
+							<h3 class="scroll-animate" data-effect="fadeInUpSmall">bailuozhineng</h3>
+							<h2 class="scroll-animate" data-delay="0.2" data-effect="fadeInUpSmall">我们的优势</h2>
+							<span></span>
+						</div>
+						<p class="scroll-animate" data-delay="0.6" data-effect="fadeInUpSmall"><span><h3>多维度精准营销，为您带来超乎想象的效果！</h3></span><br>
+						· 10万+ APP 海量资源&nbsp;&nbsp;&nbsp;· KPI 曝光点击强力保证<br>
+						· 资源优势价格更优惠&nbsp;&nbsp;&nbsp; · 一站式全媒体营销<br>
+						· 全国多地运营团队&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· 7*24小时品质服务</p>
+						<div class="index-more">
+							<a href="https://p.qiao.baidu.com/cps/chat?siteId=9674023&userId=7911790&siteToken=dc6f9d8a907747cdf3a9d9e6823e2b24&cp&cr&cw=yidong">view more +</a>
+						</div>
+					</div>	
+					<div class="index-about-pic fr">
+						<a href="">
+							<img src="static/picture/pic2.jpg" class="scroll-animate classGo" data-tclass="go">
+						</a>
+					</div>
+				</div>
+				<div class="wave_box1">
+					<img src="static/picture/wavs.gif">
+				</div>
+			</div>
+	
+			<div class="clear"></div>
+			<!-- Screen slider area -->
+			<div class="top_gao"></div>
+<div class="screen-slider">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-7 text-center wow fadeIn" data-wow-delay="0.2s">
+				<div class="title">
+					<h6>五大核心服务板块</h6>
+					<h2>全阵地营销<span>& 互动</span></h2>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 wow fadeInUp" data-wow-delay="0.4s">
+				<div class="swiper-container gallery-slider">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="slide-item">
+								<img src="static/picture/xinxiliu.jpg" alt="" class="img-responsive">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide-item">
+								<img src="static/picture/shhyy.jpg" alt="" class="img-responsive">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide-item">
+								<img src="static/picture/daiyunying.jpg" alt="" class="img-responsive">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide-item">
+								<img src="static/picture/SEO.jpg" alt="" class="img-responsive">
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="slide-item">
+								<img src="static/picture/KOL.jpg" alt="" class="img-responsive">
+							</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End Screen slider area -->
+<!--广告-->
+			<!--产品-->
+			<div class="index-product clearfix">
+				<div class="index-con clearfix">
+					<div class="index-title">
+						<h3>bailuozhineng</h3>
+						<h2>KOL网红</h2>			
+					</div>
+					<ul class="clearfix index-product-list clearfix">
+						<li>
+							<a href="">
+								<em><img src="static/picture/pic4.jpg"></em>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<em><img src="static/picture/pic5.jpg"></em>							
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<em><img src="static/picture/pic6.jpg"></em>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<em><img src="static/picture/pic8.jpg"></em>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+			
+			<!--news-->
+			<div style="margin-top: 6em;" >
+				<div class="index-con clearfix">
+					<div class="index-title">
+						<h3>bailuozhineng</h3>
+						<h2>投放流程</h2>			
+					</div>
+					<ul class="index-news-list clearfix">
+						<li class="trs02 an_up">
+							<a href="javascript:void(0);">
+								<em><img src="static/picture/pci001.png"></em>
+								<div class="text">
+									<span></span>
+									<p>营销顾问1v1沟通</p>
+									<i>step 01</i>
+								</div>
+							</a>
+						</li>
+						<li class="trs03 an_up">
+							<a href="javascript:void(0);">
+								<em><img src="static/picture/pci002.png"></em>
+								<div class="text">
+									<span></span>
+									<p>量身定制服务方案</p>
+									<i>step 02</i>
+								</div>
+							</a>
+						</li>
+						<li class="trs04 an_up">
+							<a href="javascript:void(0);">
+								<em><img src="static/picture/pci003.png"></em>
+								<div class="text">
+									<span></span>
+									<p>成功签约合作</p>
+									<i>step 03</i>
+								</div>
+							</a>
+						</li>
+						<li class="trs05 an_up">
+							<a href="javascript:void(0);">
+								<em><img src="static/picture/pci004.png"></em>
+								<div class="text">
+									<span></span>
+									<p>专业运营与执行</p>
+									<i>step 04</i>
+								</div>
+							</a>
+						</li>
+						<li class="trs06 an_up">
+							<a href="javascript:void(0);">
+								<em><img src="static/picture/pci005.png"></em>
+								<div class="text">
+									<span></span>
+									<p>效果评估分析</p>
+									<i>step 05</i>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<div class="clear"></div>
+				</div>
+			</div>
+			
+			<!--footer-->
+			<div class="index-footer">										
+				<div class="clearfix index-footer-info index-con">
+					<div class="logo fl">
+						<img src="static/picture/logo1.png">
+					</div>
+					<div class="lianxi fl">
+						<h2>联系方式</h2>
+						<p>客服热线： 400-926-9885 </p>
+						<p>地址：北京市丰台区南三环西路16号搜宝商务中心</p>
+						<p>搜宝商务中心3号楼2708</p>
+					</div>
+					<div class="phone fl">			
+						400-926-9885
+					</div>
+					<!--
+					<div class="erweima fr">
+						<img src="static/picture/erweima.jpg">
+						<p>关注公众号</p>
+					</div>
+					-->
+				</div>
 				
-			var current = this.setCarouselItems.eq(index);
+				<div class="index-footer-bottom">
+					<div class="index-con clearfix">
+						<p class="fl">版权所有 © 2019-2022 艾迪亚传媒  京ICP备14053121号-2号 京公网安备11010602005702号</p>
+						<a href="javascript:;" target="_blank" class="fr">技术支持：艾迪亚传媒</a>
+					</div>
+				</div>
+			</div>	
+			<div class="clear"></div>		
+	</article>
+</div>
+<!-- 活动角标 -->
+<div class="mask">
+    <span class="closeee"></span>
+    <a href="https://p.qiao.baidu.com/cps/chat?siteId=9674023&userId=7911790&siteToken=dc6f9d8a907747cdf3a9d9e6823e2b24&cp&cr&cw=yidong"><span class="clickarea"></span></a>
+     <div class="thumbnail">
+      	<img src="static/image/d94901eca2cdb9e32862849ccf8fe31f.png">
+     </div>
+</div>
 
-			current.stop().animate({opacity:1},800);
-
-			current.siblings().stop().animate({opacity:0},800)
-
-		}
-
-	}
+<script type="text/javascript" src="static/js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="static/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src='static/js/modernizr.custom.js'></script>
+<script src="static/js/more.js"></script>
+<script src="static/js/swiper-4.4.2.min.js"></script>
+<script type="text/javascript" src="static/js/main.js"></script>
+<script type='text/javascript' src='static/js/base.js'></script>
+<script type="text/javascript" src='static/js/app.js'></script>
+<script src="static/js/jquery-1.12.4.min.js"></script>
+<script src="static/js/bootstrap.min.js"></script>
+<script src="static/js/owl.carousel.min.js"></script>
+<script src="static/js/swiper.min.js"></script>
+<script src="static/js/jquery.counterup.min.js"></script>
+<script src="static/js/jquery.sticky.js"></script>
+<script src="static/js/wow.min.js"></script>
+<script src="static/js/slicknav-min.js"></script>
+<script src="static/js/main.js"></script>
+<script>
+var swiper = new Swiper('.index-banner.swiper-container', {
+  speed: 600,
+  parallax: true,   
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+scrolly.init({
+	wrapper: '#bloc',
+	targets: '.scr-el',
+	bgParallax: true,
+	wrapperSpeed: 0.08
+});
 </script>
-<script type="text/javascript">
-	// 实例化
-	var car = new setCarouselFn({
-		id:'setCarousel',
-		pagerId:'carPager'
+<script>
+setTimeout(function(){
+	$('.thumbnail').trigger('click')
+},1000)
+// 底部广告栏的收起与展开
+$('.thumbnail').on("click", function () {
+	$(this).animate({"right": -146},400,function () {
+		$(this).hide();
+		$('.mask').animate({"left": 0}, 600);
 	});
-
-	// 初始化调用
-	car.init();
-
-	var setBaner = $('#setBaner')
-
-    $(window).resize(function(){
-
-    	setBaner.trigger('destroy');
-
-    	setBaner.carouFredSel({
-    		responsive:true,
-    		height:document.documentElement.clientHeight,
-    		items: {
-    			visible: 1
-    		},
-    		scroll: {
-    			items:1,
-    			duration: 1000,
-    			timeoutDuration: 5000
-    		},
-    		pagination:'#indexPager',
-			auto:15000
-    	});
-
-    }).resize();
+});
+$('.closeee').on("click", function () {
+	//var thumbWidth = $('.thumbnail').width();
+	$('.mask').animate({
+		"left": "100%"
+		}, 600, function() {
+		$('.thumbnail').show().animate({"right": 0},400);
+	});
+});
 </script>
-<script src="scripts/modernizr.custom.85976.min.js"></script>
-<script src="scripts/TweenLite.min.js"></script>
-<script src="scripts/EasePack.min.js"></script>	
-<script src="scripts/pixi.js"></script>
-<script src="scripts/master.min.js"></script>
-<script src="scripts/d.js"></script>
-<script type="text/javascript">
-	var earthBtn = $('.earthBtn');
-	var earthCnt = $('.earthCnt');
-	var lastIndex = 0;
-
-	earthBtn.delay(1200).animate({opacity:1},1500);
-
-	earthCnt.eq(0).delay(3000).animate({opacity:1,top:320},1400)
-
-	earthBtn.each(function(index,elem){
- 
-		$(elem).on('click',function(){
-
-			if(lastIndex == index){
-				return;
-			}
-
-			var current = earthCnt.eq(index);
-
-			if(index == 0){
-
-				current.css({
-					top:320,
-					marginLeft:-240
-				}).stop().animate({
-					opacity:1,
-					marginLeft:-160
-				},800)
-
-			}
-
-			if(index == 1){
-
-				current.css({
-					top:320,
-					marginLeft:-100
-				}).stop().animate({
-					opacity:1,
-					marginLeft:-160
-				},800)
-
-			}
-
-			if(index == 2){
-
-				current.css({
-					top:260,
-					marginLeft:-160
-				}).stop().animate({
-					opacity:1,
-					top:320
-				},800)
-
-			}
-
-			if(index == 3){
-
-				current.css({
-					top:320,
-					marginLeft:-100
-				}).stop().animate({
-					opacity:1,
-					marginLeft:-160
-				},800)
-
-			}
-
-
-			current.siblings('.earthCnt').stop().animate({
-				opacity:0,
-				top:450
-			},800);
-
-			lastIndex = index;
-
-
-		})
-
-	})
+<script>
+function click(e) {
+if (document.all) {
+if (event.button==2||event.button==3) { alert("欢迎光临寒舍，有什么需要帮忙的话，请与站长联系！谢谢您的合作！！！");
+oncontextmenu='return false';
+}
+}
+if (document.layers) {
+if (e.which == 3) {
+oncontextmenu='return false';
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=click;
+document.oncontextmenu = new Function("return false;")
+document.onkeydown =document.onkeyup = document.onkeypress=function(){ 
+if(window.event.keyCode == 123) { 
+window.event.returnValue=false;
+return(false); 
+} 
+}
 </script>
-<script type="text/javascript">
-	(function(){
-
-		$('.iconpos .backTop').on('click',function(){
-
-			$('body,html').stop().animate({
-				scrollTop:0
-			},600)
-
-		})
-
-		var logo = $('#logo');
-		var line_1 = $('#line-1');
-		var line_2 = $('#line-2');
-		var line_3 = $('#line-3');
-		var butX = $('#butX');
-		var overdelay = $('#overdelay');
-		var menuContent = $('#menuContent');
-
-		logo.on('mouseenter',mouseenterEvent);
-
-		logo.on('mouseleave',mouseleaveEvent);
-
-		logo.on('click',function(event){
-
-			event.stopPropagation();
-
-			line_1.stop().animate({
-				width:'100%',
-				marginLeft:0
-			},350)
-
-			line_2.delay(100).stop().animate({
-				width:'100%',
-				marginLeft:0
-			},350)
-
-			line_3.stop().animate({
-				width:'100%',
-				marginLeft:0
-			},350);
-
-			logo.off('mouseleave',mouseleaveEvent);
-
-			var This = $(this);
-
-			$(this).stop().animate({
-				left:'-14%'
-			},200,function(){
-
-				menuContent.stop().animate({
-					left:0
-				},400,function(){
-
-					$('.menuContent .smallSec').stop().animate({
-						opacity:1
-					},500)
-
-					$('.mlist span').stop().animate({
-						marginTop:0,
-						opacity:1
-					},500)
-
-				})
-
-				overdelay.stop().fadeIn();
-
-				$('.indexBaner').stop().delay(200).animate({
-					marginLeft:'39.635%'
-				})
-
-			})
-
-		});
-
-		butX.on('click',function(){
-
-			menuContent.stop().animate({
-				left:'-39.635%'
-			},400,function(){
-
-				logo.on('mouseleave',mouseleaveEvent);
-
-				overdelay.stop().fadeOut();
-
-				$('.menuContent .smallSec').css({
-					opacity:0
-				},400)
-
-				$('.mlist span').stop().animate({
-					marginTop:8,
-					opacity:0
-				},500)
-
-			});
-
-			$('.indexBaner').stop().delay(0).animate({
-				marginLeft:'0'
-			},function(){
-				logo.stop().animate({
-					left:0,
-					width:'8.645%'
-				})
-			})
-
-		});
-
-		$(document).on('click',function(){
-
-			menuContent.stop().animate({
-				left:'-39.635%'
-			},400,function(){
-
-				logo.on('mouseleave',mouseleaveEvent);
-
-				overdelay.stop().fadeOut();
-
-				$('.menuContent .smallSec').css({
-					opacity:0
-				},400)
-
-				$('.mlist span').stop().animate({
-					marginTop:8,
-					opacity:0
-				},500)
-
-			});
-
-			$('.indexBaner').stop().delay(0).animate({
-				marginLeft:'0'
-			},function(){
-				logo.stop().animate({
-					left:0,
-					width:'8.645%'
-				})
-			})
-
-		});
-
-
-		function mouseenterEvent(){
-
-			line_1.stop().animate({
-				width:0,
-				marginLeft:'100%'
-			},350)
-
-			line_2.delay(100).stop().animate({
-				width:'150%',
-				marginLeft:'-50%'
-			},350)
-
-			line_3.stop().animate({
-				width:0,
-				marginLeft:'100%'
-			},350);
-
-			$(this).stop().animate({
-				width:'12%'
-			},350)
-
-			menuContent.stop().delay(200).animate({
-				left:'-36.8%'
-			},200)
-
-		}
-
-		function mouseleaveEvent(){
-
-			line_1.stop().animate({
-				width:'100%',
-				marginLeft:0
-			},350)
-
-			line_2.delay(100).stop().animate({
-				width:'100%',
-				marginLeft:0
-			},350)
-
-			line_3.stop().animate({
-				width:'100%',
-				marginLeft:0
-			},350);
-
-
-			$(this).stop().animate({
-				width:'8.645%'
-			},350,function(){
-
-			})
-
-			menuContent.stop().animate({
-				left:'-39.635%'
-			},200)
-
-		}
-
-	})();
-
-
-	(function(){
-
-		var aItems = $('.indexMain .items');
-
-		aItems.each(function(){
-
-			$(this).on('mouseenter',function(){
-
-				var This = $(this);
-
-				This.css({
-					'overflow':'visible',
-					'z-index':2
-				}).siblings().css({
-					'z-index':1
-				})
-
-				This.find('.imgBox').stop().fadeOut(800);
-
-				This.find('.nameCard').stop().fadeIn(800);
-
-			});
-
-			$(this).on('mouseleave',function(){
-
-				var This = $(this);
-
-				This.find('.imgBox').stop().fadeIn(300);
-
-				This.find('.nameCard').stop().fadeOut(300,function(){
-					This.css({
-						'overflow':'hidden',
-						'z-index':1
-					})
-				});
-
-			})
-
-		})
-
-
-	})();
-</script>
-<script type="text/javascript">
-
-	var backToTop = $('#backToTop');
-
-	backToTop.on('click',function(){
-
-		$('body,html').stop().animate({
-			scrollTop:0
-		},600)
-
-	})
-
-	$(window).on('scroll',function(){
-
-		$(window).scrollTop() > 300 ? $('.backTop').show() : $('.backTop').hide();
-
-	})
-
-</script>
+</body>
+</html>
