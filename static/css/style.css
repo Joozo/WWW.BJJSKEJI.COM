@@ -219,6 +219,10 @@ img.classGo.go,
 .index-logo {
 	width: 20%;
 }
+.index-logo img {
+	height: 62px;
+	margin-top: -5px;
+}
 
 .index-nav {
 	width: 70%;

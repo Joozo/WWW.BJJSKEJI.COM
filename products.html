@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<title>微信广告-艾迪亚传媒</title>
+<title>微信广告-言语科技</title>
 <link rel="stylesheet" type="text/css" href="static/css/style.css">
 <link rel="stylesheet" type="text/css" href="static/css/common.css">
 <link rel="stylesheet" type="text/css" href="static/css/animate.min.css">
@@ -437,7 +437,7 @@ var _hmt = _hmt || [];
 	<div class="container">
 		<div class="row">
 			<div class="section-text text-center">
-				<h3 class="clr-blue">艾迪亚传媒服务案例</h3>
+				<h3 class="clr-blue">言语科技服务案例</h3>
 				<p class="large">艾迪亚全国自运营团队7×24小时竭诚服务</p>
 			</div>
 			<div class="screenshot">
@@ -473,45 +473,26 @@ var _hmt = _hmt || [];
 <script src="static/js/script.js"></script>	
 
 	<!--footer-->
-	<div class="index-footer" style="margin-top: 0;">										
-		<div class="clearfix index-footer-info index-con">
-			<div class="logo fl">
-				<img src="static/picture/logo1.png">
-			</div>
-			<div class="lianxi fl">
-				<h2>联系方式</h2>
-				<p>客服热线： 400-926-9885 </p>
-				<p>地址：北京市丰台区南三环西路16号搜宝商务中心</p>
-				<p>搜宝商务中心3号楼2708</p>
-			</div>
-			<div class="phone fl">			
-				400-926-9885
-			</div>
-<!--			
-			<div class="erweima fr">
-				<img src="static/picture/erweima.jpg">
-				<p>关注公众号</p>
-			</div>
--->			
-		</div>
-		
-		<div class="index-footer-bottom">
-			<div class="index-con clearfix">
-				<p class="fl">版权所有 © 2019-2022 艾迪亚传媒  京ICP备14053121号-2号 京公网安备11010602005702号</p>
-				<a href="javascript:;" target="_blank" class="fr">技术支持：艾迪亚传媒</a>
-			</div>
-		</div>
-	</div>	
+	<div class="index-footer" style="margin-top: 0;">
+    <div class="clearfix index-footer-info index-con">
+        <div class="logo fl">
+            <img src="static/picture/logo1.png">
+        </div>
+        <div class="lianxi fl">
+            <h2>联系方式</h2>
+            <p>地址：北京市朝阳区三间房南里4号院[8-3]14幢平房115室</p>
+        </div>
+    </div>
+    <div class="index-footer-bottom">
+        <div class="index-con clearfix">
+            <p class="fl">版权所有 © 2019-2022 言语科技</p>
+            <a href="javascript:;" target="_blank" class="fr">技术支持：言语科技</a>
+        </div>
+    </div>
+</div>
 	<div class="clear"></div>		
 </div>
-<!-- 活动角标 -->
-<div class="mask">
-    <span class="closeee"></span>
-    <a href="https://p.qiao.baidu.com/cps/chat?siteId=9674023&userId=7911790&siteToken=dc6f9d8a907747cdf3a9d9e6823e2b24&cp&cr&cw=yidong"><span class="clickarea"></span></a>
-     <div class="thumbnailo">
-      	<img src="static/image/d94901eca2cdb9e32862849ccf8fe31f.png">
-     </div>
-</div>
+ 
 <script type="text/javascript" src="static/js/jquery-1.9.1.js"></script>
 <script type="text/javascript" src="static/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="static/js/main.js"></script>
@@ -526,50 +507,7 @@ scrolly.init({
 	wrapperSpeed: 0.08
 });
 </script>
-<script>
-function click(e) {
-if (document.all) {
-if (event.button==2||event.button==3) { alert("欢迎光临寒舍，有什么需要帮忙的话，请与站长联系！谢谢您的合作！！！");
-oncontextmenu='return false';
-}
-}
-if (document.layers) {
-if (e.which == 3) {
-oncontextmenu='return false';
-}
-}
-}
-if (document.layers) {
-document.captureEvents(Event.MOUSEDOWN);
-}
-document.onmousedown=click;
-document.oncontextmenu = new Function("return false;")
-document.onkeydown =document.onkeyup = document.onkeypress=function(){ 
-if(window.event.keyCode == 123) { 
-window.event.returnValue=false;
-return(false); 
-} 
-}
-</script>
-<script>
-setTimeout(function(){
-	$('.thumbnailo').trigger('click')
-},1000)
-// 底部广告栏的收起与展开
-$('.thumbnailo').on("click", function () {
-	$(this).animate({"right": -146},400,function () {
-		$(this).hide();
-		$('.mask').animate({"left": 0}, 600);
-	});
-});
-$('.closeee').on("click", function () {
-	//var thumbWidth = $('.thumbnailo').width();
-	$('.mask').animate({
-		"left": "100%"
-		}, 600, function() {
-		$('.thumbnailo').show().animate({"right": 0},400);
-	});
-});
-</script>
+ 
+ 
 </body>
 </html>
