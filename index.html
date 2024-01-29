@@ -1,527 +1,158 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en" >
 <head>
-<meta charset="utf-8">
-<title>互联网广告投放一站式平台-言语科技</title>
-<link rel="stylesheet" type="text/css" href="static/css/style.css">
-<link rel="stylesheet" type="text/css" href="static/css/common.css">	
-<link rel="stylesheet" href="static/css/swiper-4.4.2.min.css">
-<link rel="stylesheet" type="text/css" href="static/css/animate.min.css">
-<link rel="stylesheet" href="static/css/bootstrap.min.css">
-<link rel="stylesheet" href="static/css/fontawesome-5.8.1.css">
-<link rel="stylesheet" href="static/css/swiper.min.css">
-<link rel="stylesheet" href="static/css/style1.css">
-<style>
-.mask {
-	position: fixed;
-	bottom: 0;
-	left:100%;
-	width: 100%;
-	height: 128px;
-	background: url("static/image/4772e66619c0f19b5b4d21b132b4a717.jpg")  no-repeat scroll center;
-	z-index: 1001;
-}
- 
-.mask .gotoCenter {
-	display: block;
-	width: 1000px;
-	height: 140px;
-	margin: 0 auto;
-}
-.mask .closeee {
-	position: absolute;
-	top: 0;
-	left: 20px;
-	margin-left: 0px;
-	width: 40px;
-	height: 100%;
-	cursor: pointer;
-}
-.clickarea{
-	position: absolute;
-	top: 0;
-	left: 200px;
-	margin-left: 0px;
-	width: 100%;
-	height: 100%;
-	cursor: pointer;
-}
-.thumbnail {
-	position: fixed;
-	right: 0px;
-	bottom: 0px;
-	width: 184px;
-	height: 124px;
-	cursor: pointer;
-	/*display: none;*/
-}
-@-webkit-keyframes rotate {
-	from {-webkit-transform:rotate(0deg);}
-	to {-webkit-transform:rotate(360deg);}
-}
-</style>
- 
+  <meta charset="UTF-8">
+  <title>Hello - 我们的网站还在建设中，欢迎你，不时来看看～</title>
+  <link rel="stylesheet" href="./style.css">
+  <style type="text/css">
+	  body {
+	    width: 100%;
+	    height: 100%;
+	    position: fixed;
+	    background: #134E5E;  /* fallback for old browsers */
+	    background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+	    background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	  
+	  }
+	  
+	  .content {
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+	    height: 160px;
+	    overflow: hidden;
+	    font-family: "Lato", sans-serif;
+	    font-size: 35px;
+	    line-height: 40px;
+	    color: #ecf0f1;
+	  }
+	  .content__container {
+	    font-weight: 600;
+	    overflow: hidden;
+	    height: 40px;
+	    padding: 0 40px;
+	  }
+	  .content__container:before {
+	    content: "[";
+	    left: 0;
+	  }
+	  .content__container:after {
+	    content: "]";
+	    position: absolute;
+	    right: 0;
+	  }
+	  .content__container:after, .content__container:before {
+	    position: absolute;
+	    top: 0;
+	    color: #16a085;
+	    font-size: 42px;
+	    line-height: 40px;
+	    -webkit-animation-name: opacity;
+	    -webkit-animation-duration: 2s;
+	    -webkit-animation-iteration-count: infinite;
+	    animation-name: opacity;
+	    animation-duration: 2s;
+	    animation-iteration-count: infinite;
+	  }
+	  .content__container__text {
+	    display: inline;
+	    float: left;
+	    margin: 0;
+	  }
+	  .content__container__list {
+	    margin-top: 0;
+	    padding-left: 110px;
+	    text-align: left;
+	    list-style: none;
+	    -webkit-animation-name: change;
+	    -webkit-animation-duration: 10s;
+	    -webkit-animation-iteration-count: infinite;
+	    animation-name: change;
+	    animation-duration: 10s;
+	    animation-iteration-count: infinite;
+	  }
+	  .content__container__list__item {
+	    line-height: 40px;
+	    margin: 0;
+	  }
+	  
+	  @-webkit-keyframes opacity {
+	    0%, 100% {
+	      opacity: 0;
+	    }
+	    50% {
+	      opacity: 1;
+	    }
+	  }
+	  @-webkit-keyframes change {
+	    0%, 12.66%, 100% {
+	      transform: translate3d(0, 0, 0);
+	    }
+	    16.66%, 29.32% {
+	      transform: translate3d(0, -25%, 0);
+	    }
+	    33.32%, 45.98% {
+	      transform: translate3d(0, -50%, 0);
+	    }
+	    49.98%, 62.64% {
+	      transform: translate3d(0, -75%, 0);
+	    }
+	    66.64%, 79.3% {
+	      transform: translate3d(0, -50%, 0);
+	    }
+	    83.3%, 95.96% {
+	      transform: translate3d(0, -25%, 0);
+	    }
+	  }
+	  @keyframes opacity {
+	    0%, 100% {
+	      opacity: 0;
+	    }
+	    50% {
+	      opacity: 1;
+	    }
+	  }
+	  @keyframes change {
+	    0%, 12.66%, 100% {
+	      transform: translate3d(0, 0, 0);
+	    }
+	    16.66%, 29.32% {
+	      transform: translate3d(0, -25%, 0);
+	    }
+	    33.32%, 45.98% {
+	      transform: translate3d(0, -50%, 0);
+	    }
+	    49.98%, 62.64% {
+	      transform: translate3d(0, -75%, 0);
+	    }
+	    66.64%, 79.3% {
+	      transform: translate3d(0, -50%, 0);
+	    }
+	    83.3%, 95.96% {
+	      transform: translate3d(0, -25%, 0);
+	    }
+	  }
+  </style>
+
 </head>
-	
-<body oncontextmenu="return false" onselectstart="return false">
-<div class="index-header clearfix">
-	<div class="index-logo fl">
-		<a href=""><img src="static/picture/logo.png"></a>
-	</div>
-	<ul class="index-nav fl">
-		<li><a href="#">首页</a></li>
-		<li><a href="products.html">微信朋友圈</a></li>
-		<li><a href="xinxl.html">信息流</a></li>
-		<li><a href="kol.html">KOL</a></li>
-		<li><a href="shhyx.html">社会化营销</a></li>
-		<li><a href="dyy.html">代运营</a></li>
-		<li><a href="contact.html">联系我们</a></li>
-	</ul>
-	<div class="index-header-right fr">
-		<a href="" class="search-btn">搜索</a>
-	</div>
-	<div class="clear"></div>
-</div>
-	
-<div class="search_sec">
-	<a href="#" title="" class="close-search"><i class=" la-close"><img src="static/picture/icon5.png"></i></a>
-	<div class="search_field">
-		<div class="container">
-			<form>
-				<input type="text" name="search" placeholder="Search for...">
-				<button type="submit"><img src="static/picture/search2.png" alt=""></button>
-			</form>
-		</div>
-	</div>
-</div>	
-<!--search_sec end-->
+<body>
+<!-- partial:index.partial.html -->
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-<div id="bloc">
-	<article id="index">
-		<div class="banner-position">
-			<div class="index-banner swiper-container">
-			    <div class="swiper-wrapper">
-			        <div class="swiper-slide">
-			          <img src="static/picture/banner1.jpg">
-			        </div>
-			        <div class="swiper-slide">
-			          <img src="static/picture/banner2.jpg">
-			        </div>
-			        <div class="swiper-slide">
-			          <img src="static/picture/banner1.jpg">
-			        </div>
-			    </div>
-			    <!-- Add Navigation -->
-			    <div class="swiper-button-prev swiper-button-white"></div>
-			    <div class="swiper-button-next swiper-button-white"></div>
-		  	</div>
-			<div class="banner-wave">
-				<svg viewbox="0 0 120 28">
-			
-					<defs>
-			
-						<filter id="goo">
-			
-							<fegaussianblur in="SourceGraphic" stddeviation="1" result="blur"></fegaussianblur>
-			
-							<fecolormatrix in="blur" mode="matrix" values="
-			
-							   1 0 0 0 0  
-							
-							   0 1 0 0 0  
-							
-							   0 0 1 0 0  
-							
-							   0 0 0 13 -9" result="goo"></fecolormatrix>
-			
-							<xfeblend in="SourceGraphic" in2="goo"></xfeblend>
-			
-						</filter>
-			
-						<path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z"></path>
-			
-					</defs>
-			
-					<use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2"></use>
-			
-					<use id="wave2" class="wave" xlink:href="#wave" x="0" y="0"></use>
-			
-					<g class="gooeff" filter="url(#goo)">
-			
-						<circle class="drop drop1" cx="20" cy="2" r="8.8"></circle>
-			
-						<circle class="drop drop2" cx="25" cy="2.5" r="7.5"></circle>
-			
-						<circle class="drop drop3" cx="16" cy="2.8" r="9.2"></circle>
-			
-						<circle class="drop drop4" cx="18" cy="2" r="8.8"></circle>
-			
-						<circle class="drop drop5" cx="22" cy="2.5" r="7.5"></circle>
-			
-						<circle class="drop drop6" cx="26" cy="2.8" r="9.2"></circle>
-			
-						<circle class="drop drop1" cx="5" cy="4.4" r="8.8"></circle>
-			
-						<circle class="drop drop2" cx="5" cy="4.1" r="7.5"></circle>
-			
-						<circle class="drop drop3" cx="8" cy="3.8" r="9.2"></circle>
-			
-						<circle class="drop drop4" cx="3" cy="4.4" r="8.8"></circle>
-			
-						<circle class="drop drop5" cx="7" cy="4.1" r="7.5"></circle>
-			
-						<circle class="drop drop6" cx="10" cy="4.3" r="9.2"></circle>
-			
-						<circle class="drop drop1" cx="1.2" cy="5.4" r="8.8"></circle>
-			
-						<circle class="drop drop2" cx="5.2" cy="5.1" r="7.5"></circle>
-			
-						<circle class="drop drop3" cx="10.2" cy="5.3" r="9.2"></circle>
-			
-						<circle class="drop drop4" cx="3.2" cy="5.4" r="8.8"></circle>
-			
-						<circle class="drop drop5" cx="14.2" cy="5.1" r="7.5"></circle>
-			
-						<circle class="drop drop6" cx="17.2" cy="4.8" r="9.2"></circle>
-			
-						<use id="wave1" class="wave" xlink:href="#wave" x="0" y="1"></use>
-			
-					</g>
-				</svg>
-			</div>
-		</div>
-		<div class="clear"></div>
-		<!--业务范围-->
-			<div class="index-yewu">
-				<div class="index-con clearfix">
-					<div class="index-title">
-						<h3>bailuozhineng</h3>
-						<h2>主营业务</h2>			
-					</div>
-					
-					<div class="index-yewu-info clearfix">
-						<div class="index-yewu-pic fl">
-							<a href="">
-								<img src="static/picture/pic3.jpg" class="scroll-animate classGo" data-tclass="go">
-							</a>
-						</div>
-						<ul class="index-yewu-list clearfix fr">
-							<li>
-								<a href="">
-									<em><img src="static/picture/ico1.png"></em>
-									<div class="text">
-										<h2>信息流广告</h2>
-										<span>News feed Ads</span>
-										<p>微信朋友圈广告、腾讯广告、短视频广告、全网信息流投放</p>
-									</div>
-									<div class="button bz-buttonAnimat clockwise both">
-										<div class="inner"></div>
-									</div>									
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<em><img src="static/picture/ico2.png"></em>
-									<div class="text">
-										<h2>KOL</h2>
-										<span>KOL marketing</span>
-										<p>自媒体、种草引流、直播电商</p>
-									</div>	
-									<div class="button bz-buttonAnimat clockwise both">
-										<div class="inner"></div>
-									</div>	
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<em><img src="static/picture/ico3.png"></em>
-									<div class="text">
-										<h2>代运营</h2>
-										<span>Generation </span>
-										<p>短视频代运营、公众号代运营、微博代运营、小红书代运营</p>
-									</div>	
-									<div class="button bz-buttonAnimat clockwise both">
-										<div class="inner"></div>
-									</div>	
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<em><img src="static/picture/ico4.png"></em>
-									<div class="text">
-										<h2>社会化营销</h2>
-										<span>Social marketing</span>
-										<p>事件营销、新闻发稿、品牌公关、社群营销</p>
-									</div>	
-									<div class="button bz-buttonAnimat clockwise both">
-										<div class="inner"></div>
-									</div>	
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<em><img src="static/picture/ico5.png"></em>
-									<div class="text">
-										<h2>SEO</h2>
-										<span>SEO optimization</span>
-										<p>SEO优化、问答营销、舆情公关、网站建设</p>
-									</div>	
-									<div class="button bz-buttonAnimat clockwise both">
-										<div class="inner"></div>
-									</div>	
-								</a>
-							</li>
-						 
-							<li>
-								<a href="">
-									<em><img src="static/picture/ico6.png"></em>
-									<div class="text">
-										<h2>行为分析</h2>
-										<span>behavior analysis</span>
-										<p>互联网为依托，对商家的线上服务、客户的线下体验以及与现代物流进行深度融合</p>
-									</div>	
-									<div class="button bz-buttonAnimat clockwise both">
-										<div class="inner"></div>
-									</div>	
-								</a>
-							</li>
-						 
-						</ul>
-					</div>			
-				</div>
-			</div>
-			<div class="clear"></div>
-			
-			<div class="position-yuan clearfix">			
-				<div class="bg scr-el" data-v="1" data-speed-x="12" data-offset="150 "></div>
-			</div>
-			<!--about-->
-			<div class="index-about">
-				<div class="index-con clearfix">
-					<div class="index-about-text fl">
-						<div class="index-title">
-							<h3 class="scroll-animate" data-effect="fadeInUpSmall">bailuozhineng</h3>
-							<h2 class="scroll-animate" data-delay="0.2" data-effect="fadeInUpSmall">我们的优势</h2>
-							<span></span>
-						</div>
-						<p class="scroll-animate" data-delay="0.6" data-effect="fadeInUpSmall"><span><h3>多维度精准营销，为您带来超乎想象的效果！</h3></span><br>
-						· 10万+ APP 海量资源&nbsp;&nbsp;&nbsp;· KPI 曝光点击强力保证<br>
-						· 资源优势价格更优惠&nbsp;&nbsp;&nbsp; · 一站式全媒体营销<br>
-						· 全国多地运营团队&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;· 7*24小时品质服务</p>
-						<div class="index-more">
-							<a href="https://p.qiao.baidu.com/cps/chat?siteId=9674023&userId=7911790&siteToken=dc6f9d8a907747cdf3a9d9e6823e2b24&cp&cr&cw=yidong">view more +</a>
-						</div>
-					</div>	
-					<div class="index-about-pic fr">
-						<a href="">
-							<img src="static/picture/pic2.jpg" class="scroll-animate classGo" data-tclass="go">
-						</a>
-					</div>
-				</div>
-				<div class="wave_box1">
-					<img src="static/picture/wavs.gif">
-				</div>
-			</div>
-	
-			<div class="clear"></div>
-			<!-- Screen slider area -->
-			<div class="top_gao"></div>
-<div class="screen-slider">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-lg-7 text-center wow fadeIn" data-wow-delay="0.2s">
-				<div class="title">
-					<h6>五大核心服务板块</h6>
-					<h2>全阵地营销<span>& 互动</span></h2>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-12 wow fadeInUp" data-wow-delay="0.4s">
-				<div class="swiper-container gallery-slider">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<div class="slide-item">
-								<img src="static/picture/xinxiliu.jpg" alt="" class="img-responsive">
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="slide-item">
-								<img src="static/picture/shhyy.jpg" alt="" class="img-responsive">
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="slide-item">
-								<img src="static/picture/daiyunying.jpg" alt="" class="img-responsive">
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="slide-item">
-								<img src="static/picture/SEO.jpg" alt="" class="img-responsive">
-							</div>
-						</div>
-						<div class="swiper-slide">
-							<div class="slide-item">
-								<img src="static/picture/KOL.jpg" alt="" class="img-responsive">
-							</div>
-						</div>						
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- End Screen slider area -->
-<!--广告-->
-			<!--产品-->
-			<div class="index-product clearfix">
-				<div class="index-con clearfix">
-					<div class="index-title">
-						<h3>bailuozhineng</h3>
-						<h2>KOL网红</h2>			
-					</div>
-					<ul class="clearfix index-product-list clearfix">
-						<li>
-							<a href="">
-								<em><img src="static/picture/pic4.jpg"></em>
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<em><img src="static/picture/pic5.jpg"></em>							
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<em><img src="static/picture/pic6.jpg"></em>
-							</a>
-						</li>
-						<li>
-							<a href="">
-								<em><img src="static/picture/pic8.jpg"></em>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="clear"></div>
-			
-			<!--news-->
-			<div style="margin-top: 6em;" >
-				<div class="index-con clearfix">
-					<div class="index-title">
-						<h3>bailuozhineng</h3>
-						<h2>投放流程</h2>			
-					</div>
-					<ul class="index-news-list clearfix">
-						<li class="trs02 an_up">
-							<a href="javascript:void(0);">
-								<em><img src="static/picture/pci001.png"></em>
-								<div class="text">
-									<span></span>
-									<p>营销顾问1v1沟通</p>
-									<i>step 01</i>
-								</div>
-							</a>
-						</li>
-						<li class="trs03 an_up">
-							<a href="javascript:void(0);">
-								<em><img src="static/picture/pci002.png"></em>
-								<div class="text">
-									<span></span>
-									<p>量身定制服务方案</p>
-									<i>step 02</i>
-								</div>
-							</a>
-						</li>
-						<li class="trs04 an_up">
-							<a href="javascript:void(0);">
-								<em><img src="static/picture/pci003.png"></em>
-								<div class="text">
-									<span></span>
-									<p>成功签约合作</p>
-									<i>step 03</i>
-								</div>
-							</a>
-						</li>
-						<li class="trs05 an_up">
-							<a href="javascript:void(0);">
-								<em><img src="static/picture/pci004.png"></em>
-								<div class="text">
-									<span></span>
-									<p>专业运营与执行</p>
-									<i>step 04</i>
-								</div>
-							</a>
-						</li>
-						<li class="trs06 an_up">
-							<a href="javascript:void(0);">
-								<em><img src="static/picture/pci005.png"></em>
-								<div class="text">
-									<span></span>
-									<p>效果评估分析</p>
-									<i>step 05</i>
-								</div>
-							</a>
-						</li>
-					</ul>
-					<div class="clear"></div>
-				</div>
-			</div>
-			
-			<!--footer-->
-<!--footer-->
-        <div class="index-footer" style="margin-top: 10px;">
-            <div class="clearfix index-footer-info index-con" style="text-align:center">
-                <img src="static/picture/logo1.png" style="height:50px;">
-                <br>
-                <p style="color: #fff;">地址：北京市朝阳区三间房南里4号院[8-3]14幢平房115室</p>
-            </div>
-            <div class="index-footer-bottom">
-                <div class="index-con clearfix">
-                    <p class="fl">版权所有 © 2019-2022 言语科技 </p>
-                    <a href="javascript:;" target="_blank" class="fr">京ICP备2022027568号</a>
-                </div>
-            </div>
-        </div>
-			<div class="clear"></div>		
-	</article>
-</div>
- 
+<div class="content">
+  <div class="content__container">
+    <p class="content__container__text">
+      Hello
+    </p>
 
-<script type="text/javascript" src="static/js/jquery-1.9.1.js"></script>
-<script type="text/javascript" src="static/js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src='static/js/modernizr.custom.js'></script>
-<script src="static/js/more.js"></script>
-<script src="static/js/swiper-4.4.2.min.js"></script>
-<script type="text/javascript" src="static/js/main.js"></script>
-<script type='text/javascript' src='static/js/base.js'></script>
-<script type="text/javascript" src='static/js/app.js'></script>
-<script src="static/js/jquery-1.12.4.min.js"></script>
-<script src="static/js/bootstrap.min.js"></script>
-<script src="static/js/owl.carousel.min.js"></script>
-<script src="static/js/swiper.min.js"></script>
-<script src="static/js/jquery.counterup.min.js"></script>
-<script src="static/js/jquery.sticky.js"></script>
-<script src="static/js/wow.min.js"></script>
-<script src="static/js/slicknav-min.js"></script>
-<script src="static/js/main.js"></script>
-<script>
-var swiper = new Swiper('.index-banner.swiper-container', {
-  speed: 600,
-  parallax: true,   
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-});
-scrolly.init({
-	wrapper: '#bloc',
-	targets: '.scr-el',
-	bgParallax: true,
-	wrapperSpeed: 0.08
-});
-</script>
-
+    <ul class="content__container__list">
+      <li class="content__container__list__item">world !</li>
+      <li class="content__container__list__item">还有你 !</li>
+      <li class="content__container__list__item">我们的网站正在建设中 !</li>
+      <li class="content__container__list__item">欢迎你，不时来看看 !</li>
+    </ul>
+  </div>
+</div>
 </body>
 </html>
